@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from dbw_ford_msgs/msg/GearCmd.msg
+// generated code does not contain a copyright notice
+
+#include "dbw_ford_msgs/msg/Gear.idl"
+#include "std_msgs/msg/Header.idl"
+
+module dbw_ford_msgs {
+  module msg {
+    struct GearCmd {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Gear command enumeration")
+      dbw_ford_msgs::msg::Gear cmd;
+
+      @verbatim (language="comment", text=
+        "Clear driver overrides")
+      boolean clear;
+    };
+  };
+};

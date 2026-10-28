@@ -1,0 +1,54 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from dbw_ford_msgs/msg/ThrottleInfoReport.msg
+// generated code does not contain a copyright notice
+
+#include "dbw_ford_msgs/msg/GearNum.idl"
+#include "dbw_ford_msgs/msg/Ignition.idl"
+#include "dbw_ford_msgs/msg/OnePedal.idl"
+#include "dbw_ford_msgs/msg/QualityFactor.idl"
+#include "std_msgs/msg/Header.idl"
+
+module dbw_ford_msgs {
+  module msg {
+    struct ThrottleInfoReport {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Throttle Pedal" "\n"
+        "Throttle pedal percent, range 0 to 1")
+      float throttle_pc;
+
+      @verbatim (language="comment", text=
+        "Throttle pedal change per second (1/s)")
+      float throttle_rate;
+
+      @verbatim (language="comment", text=
+        "Non-zero is limp-home")
+      dbw_ford_msgs::msg::QualityFactor throttle_pedal_qf;
+
+      @verbatim (language="comment", text=
+        "One-pedal-drive mode")
+      dbw_ford_msgs::msg::OnePedal one_pedal;
+
+      @verbatim (language="comment", text=
+        "Engine" "\n"
+        "Engine Speed (rpm)")
+      float engine_rpm;
+
+      @verbatim (language="comment", text=
+        "Gear Num" "\n"
+        "Gear Number")
+      dbw_ford_msgs::msg::GearNum gear_num;
+
+      @verbatim (language="comment", text=
+        "Ignition status" "\n"
+        "Ignition status (enum)")
+      dbw_ford_msgs::msg::Ignition ignition;
+
+      @verbatim (language="comment", text=
+        "Battery Current" "\n"
+        "Battery Current (Amps)")
+      float batt_curr;
+    };
+  };
+};

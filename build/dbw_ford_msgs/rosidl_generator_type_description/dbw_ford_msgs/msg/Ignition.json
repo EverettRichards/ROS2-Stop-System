@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "dbw_ford_msgs/msg/Ignition",
+      "fields": [
+        {
+          "name": "value",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "dbw_ford_msgs/msg/Ignition",
+      "hash_string": "RIHS01_e5ef32883b2f2c00d69395c3b97e64c9ca4d75d9040936824679b98c4fb2f68d"
+    }
+  ]
+}

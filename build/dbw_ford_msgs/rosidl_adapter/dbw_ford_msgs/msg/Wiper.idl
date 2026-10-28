@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from dbw_ford_msgs/msg/Wiper.msg
+// generated code does not contain a copyright notice
+
+
+module dbw_ford_msgs {
+  module msg {
+    module Wiper_Constants {
+      const uint8 OFF = 0;
+      const uint8 AUTO_OFF = 1;
+      const uint8 OFF_MOVING = 2;
+      const uint8 MANUAL_OFF = 3;
+      const uint8 MANUAL_ON = 4;
+      const uint8 MANUAL_LOW = 5;
+      const uint8 MANUAL_HIGH = 6;
+      const uint8 MIST_FLICK = 7;
+      const uint8 WASH = 8;
+      const uint8 AUTO_LOW = 9;
+      const uint8 AUTO_HIGH = 10;
+      const uint8 COURTESYWIPE = 11;
+      const uint8 AUTO_ADJUST = 12;
+      const uint8 RESERVED = 13;
+      const uint8 STALLED = 14;
+      const uint8 NO_DATA = 15;
+    };
+    struct Wiper {
+      uint8 status;
+    };
+  };
+};

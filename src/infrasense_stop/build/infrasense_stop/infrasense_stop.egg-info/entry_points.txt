@@ -1,0 +1,2 @@
+[console_scripts]
+stop_listener = infrasense_stop.stop_listener:main

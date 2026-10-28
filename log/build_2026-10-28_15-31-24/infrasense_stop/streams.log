@@ -1,0 +1,16 @@
+[0.833s] Invoking command in '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/build/infrasense_stop': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/build/infrasense_stop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/infrasense_stop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/build/infrasense_stop/build --no-deps
+[1.038s] running develop
+[1.178s] running egg_info
+[1.192s] writing infrasense_stop.egg-info/PKG-INFO
+[1.192s] writing dependency_links to infrasense_stop.egg-info/dependency_links.txt
+[1.192s] writing entry points to infrasense_stop.egg-info/entry_points.txt
+[1.192s] writing requirements to infrasense_stop.egg-info/requires.txt
+[1.193s] writing top-level names to infrasense_stop.egg-info/top_level.txt
+[1.222s] reading manifest file 'infrasense_stop.egg-info/SOURCES.txt'
+[1.223s] writing manifest file 'infrasense_stop.egg-info/SOURCES.txt'
+[1.238s] running build_ext
+[1.238s] Creating /media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/infrasense_stop/lib/python3.12/site-packages/infrasense-stop.egg-link (link to .)
+[1.239s] Installing stop_listener script to /media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/infrasense_stop/bin
+[1.239s] 
+[1.239s] Installed /media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/build/infrasense_stop
+[1.264s] Invoked command in '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/build/infrasense_stop' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/build/infrasense_stop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/infrasense_stop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/build/infrasense_stop/build --no-deps

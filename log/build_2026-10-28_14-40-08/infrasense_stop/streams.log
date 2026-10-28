@@ -1,0 +1,24 @@
+[0.487s] Invoking command in '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/build/infrasense_stop': PYTHONPATH=/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/build/infrasense_stop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/infrasense_stop/lib/python3.12/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/build/infrasense_stop/build --no-deps symlink_data
+[0.622s] running develop
+[0.680s] running egg_info
+[0.680s] creating infrasense_stop.egg-info
+[0.685s] writing infrasense_stop.egg-info/PKG-INFO
+[0.685s] writing dependency_links to infrasense_stop.egg-info/dependency_links.txt
+[0.685s] writing entry points to infrasense_stop.egg-info/entry_points.txt
+[0.685s] writing requirements to infrasense_stop.egg-info/requires.txt
+[0.686s] writing top-level names to infrasense_stop.egg-info/top_level.txt
+[0.686s] writing manifest file 'infrasense_stop.egg-info/SOURCES.txt'
+[0.697s] reading manifest file 'infrasense_stop.egg-info/SOURCES.txt'
+[0.697s] writing manifest file 'infrasense_stop.egg-info/SOURCES.txt'
+[0.704s] running build_ext
+[0.704s] Creating /media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/infrasense_stop/lib/python3.12/site-packages/infrasense-stop.egg-link (link to .)
+[0.705s] Installing stop_listener script to /media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/infrasense_stop/lib/infrasense_stop
+[0.705s] 
+[0.705s] Installed /media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/build/infrasense_stop
+[0.705s] running symlink_data
+[0.705s] creating /media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/infrasense_stop/share/ament_index
+[0.705s] creating /media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/infrasense_stop/share/ament_index/resource_index
+[0.705s] creating /media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/infrasense_stop/share/ament_index/resource_index/packages
+[0.705s] symbolically linking /media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/build/infrasense_stop/resource/infrasense_stop -> /media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/infrasense_stop/share/ament_index/resource_index/packages
+[0.705s] symbolically linking /media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/build/infrasense_stop/package.xml -> /media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/infrasense_stop/share/infrasense_stop
+[0.725s] Invoked command in '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/build/infrasense_stop' returned '0': PYTHONPATH=/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/build/infrasense_stop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/infrasense_stop/lib/python3.12/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/build/infrasense_stop/build --no-deps symlink_data

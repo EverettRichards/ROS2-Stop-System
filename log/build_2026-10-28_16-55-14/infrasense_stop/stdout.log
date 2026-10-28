@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating infrasense_stop.egg-info
+writing infrasense_stop.egg-info/PKG-INFO
+writing dependency_links to infrasense_stop.egg-info/dependency_links.txt
+writing entry points to infrasense_stop.egg-info/entry_points.txt
+writing requirements to infrasense_stop.egg-info/requires.txt
+writing top-level names to infrasense_stop.egg-info/top_level.txt
+writing manifest file 'infrasense_stop.egg-info/SOURCES.txt'
+reading manifest file 'infrasense_stop.egg-info/SOURCES.txt'
+writing manifest file 'infrasense_stop.egg-info/SOURCES.txt'
+running build_ext
+Creating /media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/infrasense_stop/lib/python3.12/site-packages/infrasense-stop.egg-link (link to .)
+Installing ipi_receiver script to /media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/infrasense_stop/lib/infrasense_stop
+Installing stop_controller script to /media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/infrasense_stop/lib/infrasense_stop
+
+Installed /media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/build/infrasense_stop
+running symlink_data
+creating /media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/infrasense_stop/share/ament_index
+creating /media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/infrasense_stop/share/ament_index/resource_index
+creating /media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/infrasense_stop/share/ament_index/resource_index/packages
+symbolically linking /media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/build/infrasense_stop/resource/infrasense_stop -> /media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/infrasense_stop/share/ament_index/resource_index/packages
+symbolically linking /media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/build/infrasense_stop/package.xml -> /media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/infrasense_stop/share/infrasense_stop

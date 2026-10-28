@@ -1,0 +1,267 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-56325a6600dd28ab81c4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "dbw_ford_msgs__py",
+					"jsonFile" : "directory-dbw_ford_msgs__py-31c53787edad5469b1ac.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/build/dbw_ford_msgs/dbw_ford_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "dbw_ford_msgs__rs",
+					"jsonFile" : "directory-dbw_ford_msgs__rs-3c049c3d16db50f7137d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/build/dbw_ford_msgs/dbw_ford_msgs__rs",
+					"targetIndexes" : 
+					[
+						14
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "dbw_ford_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_dbw_ford_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_dbw_ford_msgs_egg-55fb99d87a9d719efcf2.json",
+					"name" : "ament_cmake_python_build_dbw_ford_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_dbw_ford_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_dbw_ford_msgs-ef907147bbdb2bae82e4.json",
+					"name" : "ament_cmake_python_symlink_dbw_ford_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dbw_ford_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dbw_ford_msgs-cab0c7756f9563f19edd.json",
+					"name" : "dbw_ford_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dbw_ford_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dbw_ford_msgs__cpp-b4aedb910fd112f0455e.json",
+					"name" : "dbw_ford_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "dbw_ford_msgs__py::@9b59e0c8987c2841e631",
+					"jsonFile" : "target-dbw_ford_msgs__py-ee6a115da4beeeb73e28.json",
+					"name" : "dbw_ford_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dbw_ford_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dbw_ford_msgs__rosidl_generator_c-4bafe6857b4b86f4d0e4.json",
+					"name" : "dbw_ford_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dbw_ford_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dbw_ford_msgs__rosidl_generator_py-37eea313e38173f82aa5.json",
+					"name" : "dbw_ford_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dbw_ford_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dbw_ford_msgs__rosidl_generator_type_description-f02431b22ad8dfbe4610.json",
+					"name" : "dbw_ford_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dbw_ford_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dbw_ford_msgs__rosidl_typesupport_c-86cb0b31071c500f1167.json",
+					"name" : "dbw_ford_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dbw_ford_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dbw_ford_msgs__rosidl_typesupport_cpp-3b9c4ce7fb11312c1ea1.json",
+					"name" : "dbw_ford_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dbw_ford_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dbw_ford_msgs__rosidl_typesupport_fastrtps_c-10e28782c872a6e3670b.json",
+					"name" : "dbw_ford_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dbw_ford_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dbw_ford_msgs__rosidl_typesupport_fastrtps_cpp-45479c4bcded1d5e1e72.json",
+					"name" : "dbw_ford_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dbw_ford_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dbw_ford_msgs__rosidl_typesupport_introspection_c-ce2ee4449bbc019e5d52.json",
+					"name" : "dbw_ford_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dbw_ford_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dbw_ford_msgs__rosidl_typesupport_introspection_cpp-4158489cbf0fa03567e5.json",
+					"name" : "dbw_ford_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "dbw_ford_msgs__rs::@df356e2861cc16f3c13e",
+					"jsonFile" : "target-dbw_ford_msgs__rs-b2f64d44008b53462b92.json",
+					"name" : "dbw_ford_msgs__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dbw_ford_msgs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dbw_ford_msgs_s__rosidl_typesupport_c-34f0edad0c367dd16042.json",
+					"name" : "dbw_ford_msgs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dbw_ford_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dbw_ford_msgs_s__rosidl_typesupport_fastrtps_c-22af085bc965bbbb56a3.json",
+					"name" : "dbw_ford_msgs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dbw_ford_msgs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dbw_ford_msgs_s__rosidl_typesupport_introspection_c-981dbca7c233aed4da7a.json",
+					"name" : "dbw_ford_msgs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dbw_ford_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dbw_ford_msgs_uninstall-d7a726356c209b14921e.json",
+					"name" : "dbw_ford_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-589fe113843683ed7b79.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/build/dbw_ford_msgs",
+		"source" : "/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/src/dbw_ford_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__
+    rc = await self.task(*args, **kwargs)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 120, in __call__
+    return await task_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 102, in build
+    return await extension.build(additional_hooks=additional_hooks)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 166, in build
+    temp_symlinks = self._symlinks_in_build(args, setup_py_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 394, in _symlinks_in_build
+    if not os.path.exists(dst) or not os.path.samefile(src, dst):
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen genericpath>", line 112, in samefile
+FileNotFoundError: [Errno 2] No such file or directory: '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/src/infrasense_stop/resource/infrasense_stop'

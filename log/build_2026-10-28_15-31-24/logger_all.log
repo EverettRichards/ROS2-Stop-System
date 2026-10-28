@@ -1,0 +1,332 @@
+[0.059s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.059s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7214066aa780>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7214066aa060>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7214066aa060>>, mixin_verb=('build',))
+[0.080s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.080s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.080s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.080s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.080s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.080s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.080s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense'
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE) by extensions ['ignore', 'ignore_ament_install']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE) by extension 'ignore'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE) by extension 'ignore_ament_install'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE) by extensions ['colcon_pkg']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE) by extension 'colcon_pkg'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE) by extensions ['colcon_meta']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE) by extension 'colcon_meta'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE) by extensions ['ros']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE) by extension 'ros'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE) by extensions ['cmake', 'python']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE) by extension 'cmake'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE) by extension 'python'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE) by extensions ['python_setup_py']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE) by extension 'python_setup_py'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old) by extensions ['ignore', 'ignore_ament_install']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old) by extension 'ignore'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old) by extension 'ignore_ament_install'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old) by extensions ['colcon_pkg']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old) by extension 'colcon_pkg'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old) by extensions ['colcon_meta']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old) by extension 'colcon_meta'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old) by extensions ['ros']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old) by extension 'ros'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old) by extensions ['cmake', 'python']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old) by extension 'cmake'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old) by extension 'python'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old) by extensions ['python_setup_py']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old) by extension 'python_setup_py'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/build) by extensions ['ignore', 'ignore_ament_install']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/build) by extension 'ignore'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/build) ignored
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/infrasense_stop) by extensions ['ignore', 'ignore_ament_install']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/infrasense_stop) by extension 'ignore'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/infrasense_stop) by extension 'ignore_ament_install'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/infrasense_stop) by extensions ['colcon_pkg']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/infrasense_stop) by extension 'colcon_pkg'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/infrasense_stop) by extensions ['colcon_meta']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/infrasense_stop) by extension 'colcon_meta'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/infrasense_stop) by extensions ['ros']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/infrasense_stop) by extension 'ros'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/infrasense_stop) by extensions ['cmake', 'python']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/infrasense_stop) by extension 'cmake'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/infrasense_stop) by extension 'python'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/infrasense_stop) by extensions ['python_setup_py']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/infrasense_stop) by extension 'python_setup_py'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/infrasense_stop/infrasense_stop) by extensions ['ignore', 'ignore_ament_install']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/infrasense_stop/infrasense_stop) by extension 'ignore'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/infrasense_stop/infrasense_stop) by extension 'ignore_ament_install'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/infrasense_stop/infrasense_stop) by extensions ['colcon_pkg']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/infrasense_stop/infrasense_stop) by extension 'colcon_pkg'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/infrasense_stop/infrasense_stop) by extensions ['colcon_meta']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/infrasense_stop/infrasense_stop) by extension 'colcon_meta'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/infrasense_stop/infrasense_stop) by extensions ['ros']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/infrasense_stop/infrasense_stop) by extension 'ros'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/infrasense_stop/infrasense_stop) by extensions ['cmake', 'python']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/infrasense_stop/infrasense_stop) by extension 'cmake'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/infrasense_stop/infrasense_stop) by extension 'python'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/infrasense_stop/infrasense_stop) by extensions ['python_setup_py']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/infrasense_stop/infrasense_stop) by extension 'python_setup_py'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/infrasense_stop/infrasense_stop/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/infrasense_stop/infrasense_stop/__pycache__) by extension 'ignore'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/infrasense_stop/infrasense_stop/__pycache__) by extension 'ignore_ament_install'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/infrasense_stop/infrasense_stop/__pycache__) by extensions ['colcon_pkg']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/infrasense_stop/infrasense_stop/__pycache__) by extension 'colcon_pkg'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/infrasense_stop/infrasense_stop/__pycache__) by extensions ['colcon_meta']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/infrasense_stop/infrasense_stop/__pycache__) by extension 'colcon_meta'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/infrasense_stop/infrasense_stop/__pycache__) by extensions ['ros']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/infrasense_stop/infrasense_stop/__pycache__) by extension 'ros'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/infrasense_stop/infrasense_stop/__pycache__) by extensions ['cmake', 'python']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/infrasense_stop/infrasense_stop/__pycache__) by extension 'cmake'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/infrasense_stop/infrasense_stop/__pycache__) by extension 'python'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/infrasense_stop/infrasense_stop/__pycache__) by extensions ['python_setup_py']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/infrasense_stop/infrasense_stop/__pycache__) by extension 'python_setup_py'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/infrasense_stop/resource) by extensions ['ignore', 'ignore_ament_install']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/infrasense_stop/resource) by extension 'ignore'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/infrasense_stop/resource) by extension 'ignore_ament_install'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/infrasense_stop/resource) by extensions ['colcon_pkg']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/infrasense_stop/resource) by extension 'colcon_pkg'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/infrasense_stop/resource) by extensions ['colcon_meta']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/infrasense_stop/resource) by extension 'colcon_meta'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/infrasense_stop/resource) by extensions ['ros']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/infrasense_stop/resource) by extension 'ros'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/infrasense_stop/resource) by extensions ['cmake', 'python']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/infrasense_stop/resource) by extension 'cmake'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/infrasense_stop/resource) by extension 'python'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/infrasense_stop/resource) by extensions ['python_setup_py']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/infrasense_stop/resource) by extension 'python_setup_py'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/infrasense_stop/test) by extensions ['ignore', 'ignore_ament_install']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/infrasense_stop/test) by extension 'ignore'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/infrasense_stop/test) by extension 'ignore_ament_install'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/infrasense_stop/test) by extensions ['colcon_pkg']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/infrasense_stop/test) by extension 'colcon_pkg'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/infrasense_stop/test) by extensions ['colcon_meta']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/infrasense_stop/test) by extension 'colcon_meta'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/infrasense_stop/test) by extensions ['ros']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/infrasense_stop/test) by extension 'ros'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/infrasense_stop/test) by extensions ['cmake', 'python']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/infrasense_stop/test) by extension 'cmake'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/infrasense_stop/test) by extension 'python'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/infrasense_stop/test) by extensions ['python_setup_py']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/infrasense_stop/test) by extension 'python_setup_py'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/install) by extensions ['ignore', 'ignore_ament_install']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/install) by extension 'ignore'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/install) ignored
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/log) by extensions ['ignore', 'ignore_ament_install']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/log) by extension 'ignore'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(ARCHIVE/infrasense_stop_old/log) ignored
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/dbw_ford_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/dbw_ford_msgs) by extension 'ignore'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/dbw_ford_msgs) by extension 'ignore_ament_install'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/dbw_ford_msgs) by extensions ['colcon_pkg']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/dbw_ford_msgs) by extension 'colcon_pkg'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/dbw_ford_msgs) by extensions ['colcon_meta']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/dbw_ford_msgs) by extension 'colcon_meta'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/dbw_ford_msgs) by extensions ['ros']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/dbw_ford_msgs) by extension 'ros'
+[0.100s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dbw_ford_msgs' with type 'ros.ament_cmake' and name 'dbw_ford_msgs'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/infrasense_stop) by extensions ['ignore', 'ignore_ament_install']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/infrasense_stop) by extension 'ignore'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/infrasense_stop) by extension 'ignore_ament_install'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/infrasense_stop) by extensions ['colcon_pkg']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/infrasense_stop) by extension 'colcon_pkg'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/infrasense_stop) by extensions ['colcon_meta']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/infrasense_stop) by extension 'colcon_meta'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/infrasense_stop) by extensions ['ros']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/infrasense_stop) by extension 'ros'
+[0.101s] DEBUG:colcon.colcon_core.package_identification:Package 'src/infrasense_stop' with type 'ros.ament_python' and name 'infrasense_stop'
+[0.101s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.101s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.101s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.101s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.101s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.111s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.111s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.112s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/hydrau/infrasense_stop_pkg/install' in the environment variable COLCON_PREFIX_PATH doesn't exist
+[0.112s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/hydrau/infrasense_stop_pkg/install/infrasense_stop' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.112s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install
+[0.113s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 294 installed packages in /opt/ros/jazzy
+[0.114s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'dbw_ford_msgs' build argument 'cmake_args' from command line to 'None'
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'dbw_ford_msgs' build argument 'cmake_target' from command line to 'None'
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'dbw_ford_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'dbw_ford_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'dbw_ford_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'dbw_ford_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'dbw_ford_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'dbw_ford_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'dbw_ford_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.135s] DEBUG:colcon.colcon_core.verb:Building package 'dbw_ford_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/build/dbw_ford_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/dbw_ford_msgs', 'merge_install': False, 'path': '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/src/dbw_ford_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'infrasense_stop' build argument 'cmake_args' from command line to 'None'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'infrasense_stop' build argument 'cmake_target' from command line to 'None'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'infrasense_stop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'infrasense_stop' build argument 'cmake_clean_cache' from command line to 'False'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'infrasense_stop' build argument 'cmake_clean_first' from command line to 'False'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'infrasense_stop' build argument 'cmake_force_configure' from command line to 'False'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'infrasense_stop' build argument 'ament_cmake_args' from command line to 'None'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'infrasense_stop' build argument 'catkin_cmake_args' from command line to 'None'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'infrasense_stop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.136s] DEBUG:colcon.colcon_core.verb:Building package 'infrasense_stop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/build/infrasense_stop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/infrasense_stop', 'merge_install': False, 'path': '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/src/infrasense_stop', 'symlink_install': True, 'test_result_base': None}
+[0.136s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.136s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.137s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/src/dbw_ford_msgs' with build type 'ament_cmake'
+[0.137s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/src/dbw_ford_msgs'
+[0.138s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.139s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.139s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.141s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/src/infrasense_stop' with build type 'ament_python'
+[0.141s] Level 1:colcon.colcon_core.shell:create_environment_hook('infrasense_stop', 'ament_prefix_path')
+[0.142s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/infrasense_stop/share/infrasense_stop/hook/ament_prefix_path.ps1'
+[0.142s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/infrasense_stop/share/infrasense_stop/hook/ament_prefix_path.dsv'
+[0.142s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/infrasense_stop/share/infrasense_stop/hook/ament_prefix_path.sh'
+[0.143s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.143s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.147s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/build/dbw_ford_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/infrasense_stop:/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/hydrau/infrasense_stop_pkg/install/infrasense_stop:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/build/dbw_ford_msgs -- -j12 -l12
+[0.364s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'infrasense_stop' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[0.364s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'infrasense_stop' doesn't explicitly install the 'package.xml' file (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[0.365s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/src/infrasense_stop'
+[0.365s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.365s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.450s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/build/dbw_ford_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/infrasense_stop:/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/hydrau/infrasense_stop_pkg/install/infrasense_stop:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/build/dbw_ford_msgs -- -j12 -l12
+[0.460s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/build/dbw_ford_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/infrasense_stop:/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/hydrau/infrasense_stop_pkg/install/infrasense_stop:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/build/dbw_ford_msgs
+[0.574s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dbw_ford_msgs)
+[0.575s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/build/dbw_ford_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/infrasense_stop:/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/hydrau/infrasense_stop_pkg/install/infrasense_stop:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/build/dbw_ford_msgs
+[0.577s] Level 1:colcon.colcon_core.environment:checking '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/dbw_ford_msgs' for CMake module files
+[0.577s] Level 1:colcon.colcon_core.environment:checking '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/dbw_ford_msgs' for CMake config files
+[0.578s] Level 1:colcon.colcon_core.shell:create_environment_hook('dbw_ford_msgs', 'cmake_prefix_path')
+[0.578s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/dbw_ford_msgs/share/dbw_ford_msgs/hook/cmake_prefix_path.ps1'
+[0.579s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/dbw_ford_msgs/share/dbw_ford_msgs/hook/cmake_prefix_path.dsv'
+[0.579s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/dbw_ford_msgs/share/dbw_ford_msgs/hook/cmake_prefix_path.sh'
+[0.580s] Level 1:colcon.colcon_core.environment:checking '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/dbw_ford_msgs/lib'
+[0.580s] Level 1:colcon.colcon_core.shell:create_environment_hook('dbw_ford_msgs', 'ld_library_path_lib')
+[0.580s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/dbw_ford_msgs/share/dbw_ford_msgs/hook/ld_library_path_lib.ps1'
+[0.580s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/dbw_ford_msgs/share/dbw_ford_msgs/hook/ld_library_path_lib.dsv'
+[0.581s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/dbw_ford_msgs/share/dbw_ford_msgs/hook/ld_library_path_lib.sh'
+[0.581s] Level 1:colcon.colcon_core.environment:checking '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/dbw_ford_msgs/bin'
+[0.581s] Level 1:colcon.colcon_core.environment:checking '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/dbw_ford_msgs/lib/pkgconfig/dbw_ford_msgs.pc'
+[0.581s] Level 1:colcon.colcon_core.environment:checking '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/dbw_ford_msgs/lib/python3.12/site-packages'
+[0.581s] Level 1:colcon.colcon_core.shell:create_environment_hook('dbw_ford_msgs', 'pythonpath')
+[0.582s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/dbw_ford_msgs/share/dbw_ford_msgs/hook/pythonpath.ps1'
+[0.582s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/dbw_ford_msgs/share/dbw_ford_msgs/hook/pythonpath.dsv'
+[0.582s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/dbw_ford_msgs/share/dbw_ford_msgs/hook/pythonpath.sh'
+[0.583s] Level 1:colcon.colcon_core.environment:checking '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/dbw_ford_msgs/bin'
+[0.583s] INFO:colcon.colcon_core.shell:Creating package script '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/dbw_ford_msgs/share/dbw_ford_msgs/package.ps1'
+[0.584s] INFO:colcon.colcon_core.shell:Creating package descriptor '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/dbw_ford_msgs/share/dbw_ford_msgs/package.dsv'
+[0.585s] INFO:colcon.colcon_core.shell:Creating package script '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/dbw_ford_msgs/share/dbw_ford_msgs/package.sh'
+[0.585s] INFO:colcon.colcon_core.shell:Creating package script '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/dbw_ford_msgs/share/dbw_ford_msgs/package.bash'
+[0.586s] INFO:colcon.colcon_core.shell:Creating package script '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/dbw_ford_msgs/share/dbw_ford_msgs/package.zsh'
+[0.586s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/dbw_ford_msgs/share/colcon-core/packages/dbw_ford_msgs)
+[0.586s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dbw_ford_msgs)
+[0.586s] Level 1:colcon.colcon_core.environment:checking '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/dbw_ford_msgs' for CMake module files
+[0.587s] Level 1:colcon.colcon_core.environment:checking '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/dbw_ford_msgs' for CMake config files
+[0.587s] Level 1:colcon.colcon_core.shell:create_environment_hook('dbw_ford_msgs', 'cmake_prefix_path')
+[0.587s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/dbw_ford_msgs/share/dbw_ford_msgs/hook/cmake_prefix_path.ps1'
+[0.587s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/dbw_ford_msgs/share/dbw_ford_msgs/hook/cmake_prefix_path.dsv'
+[0.588s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/dbw_ford_msgs/share/dbw_ford_msgs/hook/cmake_prefix_path.sh'
+[0.588s] Level 1:colcon.colcon_core.environment:checking '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/dbw_ford_msgs/lib'
+[0.588s] Level 1:colcon.colcon_core.shell:create_environment_hook('dbw_ford_msgs', 'ld_library_path_lib')
+[0.588s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/dbw_ford_msgs/share/dbw_ford_msgs/hook/ld_library_path_lib.ps1'
+[0.588s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/dbw_ford_msgs/share/dbw_ford_msgs/hook/ld_library_path_lib.dsv'
+[0.588s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/dbw_ford_msgs/share/dbw_ford_msgs/hook/ld_library_path_lib.sh'
+[0.589s] Level 1:colcon.colcon_core.environment:checking '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/dbw_ford_msgs/bin'
+[0.589s] Level 1:colcon.colcon_core.environment:checking '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/dbw_ford_msgs/lib/pkgconfig/dbw_ford_msgs.pc'
+[0.589s] Level 1:colcon.colcon_core.environment:checking '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/dbw_ford_msgs/lib/python3.12/site-packages'
+[0.589s] Level 1:colcon.colcon_core.shell:create_environment_hook('dbw_ford_msgs', 'pythonpath')
+[0.589s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/dbw_ford_msgs/share/dbw_ford_msgs/hook/pythonpath.ps1'
+[0.589s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/dbw_ford_msgs/share/dbw_ford_msgs/hook/pythonpath.dsv'
+[0.590s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/dbw_ford_msgs/share/dbw_ford_msgs/hook/pythonpath.sh'
+[0.590s] Level 1:colcon.colcon_core.environment:checking '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/dbw_ford_msgs/bin'
+[0.590s] INFO:colcon.colcon_core.shell:Creating package script '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/dbw_ford_msgs/share/dbw_ford_msgs/package.ps1'
+[0.591s] INFO:colcon.colcon_core.shell:Creating package descriptor '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/dbw_ford_msgs/share/dbw_ford_msgs/package.dsv'
+[0.591s] INFO:colcon.colcon_core.shell:Creating package script '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/dbw_ford_msgs/share/dbw_ford_msgs/package.sh'
+[0.591s] INFO:colcon.colcon_core.shell:Creating package script '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/dbw_ford_msgs/share/dbw_ford_msgs/package.bash'
+[0.591s] INFO:colcon.colcon_core.shell:Creating package script '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/dbw_ford_msgs/share/dbw_ford_msgs/package.zsh'
+[0.592s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/dbw_ford_msgs/share/colcon-core/packages/dbw_ford_msgs)
+[0.779s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: clean, build_ext, install_lib, sdist, upload_docs, build, egg_info, update_catalog, check, alias, saveopts, rotate, build_clib, install, editable_wheel, register, bdist_rpm, setopt, build_py, symlink_data, easy_install, bdist_dumb, install_headers, test, install_scripts, dist_info, build_scripts, bdist, compile_catalog, bdist_wheel, develop, install_egg_info, init_catalog, extract_messages, upload, bdist_egg, install_data
+[0.974s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools 'develop' options: --zip-ok, --no-find-links, --prefix, --no-user-cfg, --no-deps, --upgrade, --dry-run, --always-copy, --verbose, --version, --uninstall, --quiet, --egg-path, --site-dirs, --record, --editable, --script-dir, --index-url, --local-snapshots-ok, --force-installation-into-system-dir, --allow-hosts, --exclude-scripts, --install-dir, --multi-version, --always-unzip, --optimize, --user, --build-directory, --find-links, --install-layout, --help
+[0.975s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/build/infrasense_stop': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/build/infrasense_stop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/infrasense_stop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/build/infrasense_stop/build --no-deps
+[1.405s] Level 1:colcon.colcon_core.shell:create_environment_hook('infrasense_stop', 'pythonpath_develop')
+[1.405s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/build/infrasense_stop/share/infrasense_stop/hook/pythonpath_develop.ps1'
+[1.406s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/build/infrasense_stop' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/build/infrasense_stop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/infrasense_stop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/build/infrasense_stop/build --no-deps
+[1.406s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/build/infrasense_stop/share/infrasense_stop/hook/pythonpath_develop.dsv'
+[1.407s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/build/infrasense_stop/share/infrasense_stop/hook/pythonpath_develop.sh'
+[1.407s] Level 1:colcon.colcon_core.environment:checking '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/infrasense_stop' for CMake module files
+[1.408s] Level 1:colcon.colcon_core.environment:checking '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/infrasense_stop' for CMake config files
+[1.408s] Level 1:colcon.colcon_core.environment:checking '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/infrasense_stop/lib'
+[1.408s] Level 1:colcon.colcon_core.environment:checking '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/infrasense_stop/bin'
+[1.408s] Level 1:colcon.colcon_core.shell:create_environment_hook('infrasense_stop', 'path')
+[1.408s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/infrasense_stop/share/infrasense_stop/hook/path.ps1'
+[1.408s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/infrasense_stop/share/infrasense_stop/hook/path.dsv'
+[1.409s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/infrasense_stop/share/infrasense_stop/hook/path.sh'
+[1.409s] Level 1:colcon.colcon_core.environment:checking '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/infrasense_stop/lib/pkgconfig/infrasense_stop.pc'
+[1.409s] Level 1:colcon.colcon_core.environment:checking '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/infrasense_stop/lib/python3.12/site-packages'
+[1.409s] Level 1:colcon.colcon_core.shell:create_environment_hook('infrasense_stop', 'pythonpath')
+[1.409s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/infrasense_stop/share/infrasense_stop/hook/pythonpath.ps1'
+[1.410s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/infrasense_stop/share/infrasense_stop/hook/pythonpath.dsv'
+[1.410s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/infrasense_stop/share/infrasense_stop/hook/pythonpath.sh'
+[1.410s] Level 1:colcon.colcon_core.environment:checking '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/infrasense_stop/bin'
+[1.410s] Level 1:colcon.colcon_core.shell:create_environment_hook('infrasense_stop', 'pythonscriptspath')
+[1.410s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/infrasense_stop/share/infrasense_stop/hook/pythonscriptspath.ps1'
+[1.411s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/infrasense_stop/share/infrasense_stop/hook/pythonscriptspath.dsv'
+[1.411s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/infrasense_stop/share/infrasense_stop/hook/pythonscriptspath.sh'
+[1.411s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(infrasense_stop)
+[1.411s] INFO:colcon.colcon_core.shell:Creating package script '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/infrasense_stop/share/infrasense_stop/package.ps1'
+[1.412s] INFO:colcon.colcon_core.shell:Creating package descriptor '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/infrasense_stop/share/infrasense_stop/package.dsv'
+[1.412s] INFO:colcon.colcon_core.shell:Creating package script '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/infrasense_stop/share/infrasense_stop/package.sh'
+[1.413s] INFO:colcon.colcon_core.shell:Creating package script '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/infrasense_stop/share/infrasense_stop/package.bash'
+[1.413s] INFO:colcon.colcon_core.shell:Creating package script '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/infrasense_stop/share/infrasense_stop/package.zsh'
+[1.413s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/infrasense_stop/share/colcon-core/packages/infrasense_stop)
+[1.413s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.414s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.414s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.414s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.419s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.419s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.419s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.434s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.434s] INFO:colcon.colcon_core.shell:Creating prefix script '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/local_setup.ps1'
+[1.435s] INFO:colcon.colcon_core.shell:Creating prefix util module '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/_local_setup_util_ps1.py'
+[1.436s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/setup.ps1'
+[1.437s] INFO:colcon.colcon_core.shell:Creating prefix script '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/local_setup.sh'
+[1.437s] INFO:colcon.colcon_core.shell:Creating prefix util module '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/_local_setup_util_sh.py'
+[1.437s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/setup.sh'
+[1.438s] INFO:colcon.colcon_core.shell:Creating prefix script '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/local_setup.bash'
+[1.439s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/setup.bash'
+[1.439s] INFO:colcon.colcon_core.shell:Creating prefix script '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/local_setup.zsh'
+[1.439s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/setup.zsh'

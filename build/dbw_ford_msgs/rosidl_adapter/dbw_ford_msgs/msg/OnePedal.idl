@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from dbw_ford_msgs/msg/OnePedal.msg
+// generated code does not contain a copyright notice
+
+
+module dbw_ford_msgs {
+  module msg {
+    module OnePedal_Constants {
+      const uint8 UNKNOWN = 0;
+      const uint8 OFF = 1;
+      const uint8 ON = 2;
+      const uint8 FAULT = 3;
+    };
+    struct OnePedal {
+      uint8 value;
+    };
+  };
+};

@@ -1,0 +1,8 @@
+[0.000000] (-) TimerEvent: {}
+[0.000664] (-) JobUnselected: {'identifier': 'dbw_ford_msgs'}
+[0.000725] (infrasense_stop) JobQueued: {'identifier': 'infrasense_stop', 'dependencies': OrderedDict()}
+[0.000820] (infrasense_stop) JobStarted: {'identifier': 'infrasense_stop'}
+[0.099959] (-) TimerEvent: {}
+[0.139653] (infrasense_stop) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 120, in __call__\n    return await task_method(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 87, in build\n    create_file(\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 301, in create_file\n    with open(dst, \'w\') as h:\n         ^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: \'/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/infrasense_stop/share/ament_index/resource_index/packages/infrasense_stop\'\n'}
+[0.140138] (infrasense_stop) JobEnded: {'identifier': 'infrasense_stop', 'rc': 1}
+[0.150183] (-) EventReactorShutdown: {}

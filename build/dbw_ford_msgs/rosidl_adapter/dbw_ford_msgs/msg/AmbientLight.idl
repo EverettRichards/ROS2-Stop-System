@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from dbw_ford_msgs/msg/AmbientLight.msg
+// generated code does not contain a copyright notice
+
+
+module dbw_ford_msgs {
+  module msg {
+    module AmbientLight_Constants {
+      const uint8 DARK = 0;
+      const uint8 LIGHT = 1;
+      const uint8 TWILIGHT = 2;
+      const uint8 TUNNEL_ON = 3;
+      const uint8 TUNNEL_OFF = 4;
+      const uint8 NO_DATA = 7;
+    };
+    struct AmbientLight {
+      uint8 status;
+    };
+  };
+};

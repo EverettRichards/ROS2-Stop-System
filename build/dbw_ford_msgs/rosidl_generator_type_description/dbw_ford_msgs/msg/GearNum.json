@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "dbw_ford_msgs/msg/GearNum",
+      "fields": [
+        {
+          "name": "num",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "dbw_ford_msgs/msg/GearNum",
+      "hash_string": "RIHS01_c0f2b417c3106a02ba70ef412e23623656028747932ed71bda6e1009af26406b"
+    }
+  ]
+}

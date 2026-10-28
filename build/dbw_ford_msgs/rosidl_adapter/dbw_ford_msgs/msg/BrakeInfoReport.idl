@@ -1,0 +1,62 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from dbw_ford_msgs/msg/BrakeInfoReport.msg
+// generated code does not contain a copyright notice
+
+#include "dbw_ford_msgs/msg/HillStartAssist.idl"
+#include "dbw_ford_msgs/msg/ParkingBrake.idl"
+#include "dbw_ford_msgs/msg/QualityFactor.idl"
+#include "std_msgs/msg/Header.idl"
+
+module dbw_ford_msgs {
+  module msg {
+    struct BrakeInfoReport {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Wheel torques (Nm)")
+      float brake_torque_request;
+
+      float brake_torque_actual;
+
+      float wheel_torque_actual;
+
+      @verbatim (language="comment", text=
+        "Vehicle Acceleration (m/s^2)")
+      float accel_over_ground;
+
+      @verbatim (language="comment", text=
+        "Brake Pedal")
+      dbw_ford_msgs::msg::QualityFactor brake_pedal_qf;
+
+      @verbatim (language="comment", text=
+        "Hill Start Assist")
+      dbw_ford_msgs::msg::HillStartAssist hsa;
+
+      @verbatim (language="comment", text=
+        "Anti-lock Brakes")
+      boolean abs_active;
+
+      boolean abs_enabled;
+
+      @verbatim (language="comment", text=
+        "Stability Control")
+      boolean stab_active;
+
+      boolean stab_enabled;
+
+      @verbatim (language="comment", text=
+        "Traction Control")
+      boolean trac_active;
+
+      boolean trac_enabled;
+
+      @verbatim (language="comment", text=
+        "Parking Brake")
+      dbw_ford_msgs::msg::ParkingBrake parking_brake;
+
+      @verbatim (language="comment", text=
+        "Misc")
+      boolean stationary;
+    };
+  };
+};
