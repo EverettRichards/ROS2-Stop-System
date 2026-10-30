@@ -40,7 +40,7 @@ def isStopMessage(msg):
         if data["messageType"] == "EMERGENCY_STOP":
             return True
         else:
-            print("Error: messageType is *not* 'EMERGENCY_STOP'")
+            print(f"Error: messageType is *not* 'EMERGENCY_STOP': {data['messageType']}")
             return False
 
     except Exception as e:

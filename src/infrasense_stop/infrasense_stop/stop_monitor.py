@@ -2,7 +2,7 @@ import time
 import rclpy
 from rclpy.node import Node
 from geometry_msgs.msg import TwistStamped
-from std_msgs.msg import Bool
+from std_msgs.msg import Bool, Int64
 
 class StopMonitor(Node):
 
@@ -23,6 +23,13 @@ class StopMonitor(Node):
             10
         )
 
+        self.timestamp_sub = self.create_subscription(
+            Int64,
+            '/infrasense/test_stop_t1_ns',
+            self.timestamp_callback,
+            10
+        )
+
         # global velocity threshold at which the vehicle is considered stopped, in m/s
         self.stop_velocity_threshold = 0.05
 
@@ -33,6 +40,8 @@ class StopMonitor(Node):
         self.stop_request_time_ns = None
         self.stopped_time_ns = None
         self.zero_speed_since_ns = None
+        self.t1_ns = None
+        self.result_logged = False
 
     # get current velocity
     def velocity_callback(self, msg):
@@ -60,6 +69,7 @@ class StopMonitor(Node):
 
             if elapsed_ns >= self.stop_confirmation_ns:
                 self.stopped_time_ns = self.zero_speed_since_ns
+                self.report_result()
 
                 stop_duration_ms = (
                     self.stopped_time_ns - self.stop_request_time_ns
@@ -99,6 +109,29 @@ class StopMonitor(Node):
             f"Stop request detected. "
             f"Current speed: {self.latest_speed_mps} m/s."
         )
+
+    def timestamp_callback(self, msg):
+        if self.t1_ns is None:
+            self.t1_ns = msg.data
+            self.get_logger().info("Received vehicle T1 timestamp.")
+            self.report_result()
+
+    def report_result(self):
+        if self.result_logged:
+            return
+
+        if self.t1_ns is None or self.stopped_time_ns is None:
+            return
+
+        elapsed_ms = (
+            self.stopped_time_ns - self.t1_ns
+        ) / 1_000_000
+
+        self.get_logger().info(
+            f"NETWORK-TO-STOP TIME: {elapsed_ms:.2f} ms"
+        )
+
+        self.result_logged = True
 
 def main(args=None):
     rclpy.init(args=args)

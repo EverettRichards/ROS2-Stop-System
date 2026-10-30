@@ -1,0 +1,26 @@
+[0.622s] Invoking command in '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/build_humble/infrasense_stop': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/build_humble/infrasense_stop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install_humble/infrasense_stop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/build_humble/infrasense_stop/build --no-deps symlink_data
+[0.799s] running develop
+[0.896s] running egg_info
+[0.896s] creating infrasense_stop.egg-info
+[0.905s] writing infrasense_stop.egg-info/PKG-INFO
+[0.905s] writing dependency_links to infrasense_stop.egg-info/dependency_links.txt
+[0.905s] writing entry points to infrasense_stop.egg-info/entry_points.txt
+[0.905s] writing requirements to infrasense_stop.egg-info/requires.txt
+[0.906s] writing top-level names to infrasense_stop.egg-info/top_level.txt
+[0.906s] writing manifest file 'infrasense_stop.egg-info/SOURCES.txt'
+[0.925s] reading manifest file 'infrasense_stop.egg-info/SOURCES.txt'
+[0.926s] writing manifest file 'infrasense_stop.egg-info/SOURCES.txt'
+[0.936s] running build_ext
+[0.936s] Creating /media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install_humble/infrasense_stop/lib/python3.12/site-packages/infrasense-stop.egg-link (link to .)
+[0.936s] Installing ipi_receiver script to /media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install_humble/infrasense_stop/lib/infrasense_stop
+[0.936s] Installing stop_controller script to /media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install_humble/infrasense_stop/lib/infrasense_stop
+[0.937s] Installing stop_monitor script to /media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install_humble/infrasense_stop/lib/infrasense_stop
+[0.937s] 
+[0.937s] Installed /media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/build_humble/infrasense_stop
+[0.937s] running symlink_data
+[0.937s] creating /media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install_humble/infrasense_stop/share/ament_index
+[0.937s] creating /media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install_humble/infrasense_stop/share/ament_index/resource_index
+[0.937s] creating /media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install_humble/infrasense_stop/share/ament_index/resource_index/packages
+[0.937s] symbolically linking /media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/build_humble/infrasense_stop/resource/infrasense_stop -> /media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install_humble/infrasense_stop/share/ament_index/resource_index/packages
+[0.937s] symbolically linking /media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/build_humble/infrasense_stop/package.xml -> /media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install_humble/infrasense_stop/share/infrasense_stop
+[0.955s] Invoked command in '/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/build_humble/infrasense_stop' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/build_humble/infrasense_stop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install_humble/infrasense_stop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/build_humble/infrasense_stop/build --no-deps symlink_data
