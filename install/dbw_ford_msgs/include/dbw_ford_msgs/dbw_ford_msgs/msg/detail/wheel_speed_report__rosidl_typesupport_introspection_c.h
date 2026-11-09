@@ -1,1 +1,0 @@
-/home/everett/ROS2-Stop-System/build/dbw_ford_msgs/rosidl_typesupport_introspection_c/dbw_ford_msgs/msg/detail/wheel_speed_report__rosidl_typesupport_introspection_c.h

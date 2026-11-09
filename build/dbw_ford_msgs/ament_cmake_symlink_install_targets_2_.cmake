@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/everett/ROS2-Stop-System/build/dbw_ford_msgs/rosidl_generator_py/dbw_ford_msgs/dbw_ford_msgs_s__rosidl_typesupport_c.so" "TARGETS" "dbw_ford_msgs_s__rosidl_typesupport_c" "DESTINATION" "lib/python3.12/site-packages/dbw_ford_msgs")

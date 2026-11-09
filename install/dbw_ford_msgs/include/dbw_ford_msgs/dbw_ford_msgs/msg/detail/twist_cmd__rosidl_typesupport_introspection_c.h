@@ -1,1 +1,0 @@
-/home/everett/ROS2-Stop-System/build/dbw_ford_msgs/rosidl_typesupport_introspection_c/dbw_ford_msgs/msg/detail/twist_cmd__rosidl_typesupport_introspection_c.h

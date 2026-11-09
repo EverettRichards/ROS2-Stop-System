@@ -1,1 +1,0 @@
-/home/everett/ROS2-Stop-System/build/dbw_ford_msgs/ament_cmake_environment_hooks/local_setup.zsh

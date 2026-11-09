@@ -1,1 +1,0 @@
-/home/everett/ROS2-Stop-System/build/dbw_ford_msgs/rosidl_generator_cpp/dbw_ford_msgs/msg/detail/hill_start_assist__builder.hpp
