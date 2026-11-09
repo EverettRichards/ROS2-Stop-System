@@ -1,0 +1,196 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from dbw_ford_msgs/msg/Misc1Report.msg
+// generated code does not contain a copyright notice
+
+#include "dbw_ford_msgs/msg/AmbientLight.idl"
+#include "dbw_ford_msgs/msg/TurnSignal.idl"
+#include "dbw_ford_msgs/msg/Wiper.idl"
+#include "std_msgs/msg/Header.idl"
+
+module dbw_ford_msgs {
+  module msg {
+    struct Misc1Report {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Turn Signal enumeration")
+      dbw_ford_msgs::msg::TurnSignal turn_signal;
+
+      @verbatim (language="comment", text=
+        "High beams")
+      boolean high_beam_headlights;
+
+      @verbatim (language="comment", text=
+        "Front Windshield Wipers enumeration")
+      dbw_ford_msgs::msg::Wiper wiper;
+
+      @verbatim (language="comment", text=
+        "Ambient Light Sensor enumeration")
+      dbw_ford_msgs::msg::AmbientLight ambient_light;
+
+      @verbatim (language="comment", text=
+        "Outside air temperature" "\n"
+        "Degrees Celsius")
+      float outside_temperature;
+
+      @verbatim (language="comment", text=
+        "Buttons" "\n"
+        "Cruise Control On")
+      boolean btn_cc_on;
+
+      @verbatim (language="comment", text=
+        "Cruise Control Off")
+      boolean btn_cc_off;
+
+      @verbatim (language="comment", text=
+        "Cruise Control On/Off Toggle")
+      boolean btn_cc_on_off;
+
+      @verbatim (language="comment", text=
+        "Cruise Control Resume")
+      boolean btn_cc_res;
+
+      @verbatim (language="comment", text=
+        "Cruise Control Cancel")
+      boolean btn_cc_cncl;
+
+      @verbatim (language="comment", text=
+        "Cruise Control Resume/Cancel")
+      boolean btn_cc_res_cncl;
+
+      @verbatim (language="comment", text=
+        "Cruise Control Resume+")
+      boolean btn_cc_res_inc;
+
+      @verbatim (language="comment", text=
+        "Cruise Control Resume-")
+      boolean btn_cc_res_dec;
+
+      @verbatim (language="comment", text=
+        "Cruise Control Set+")
+      boolean btn_cc_set_inc;
+
+      @verbatim (language="comment", text=
+        "Cruise Control Set-")
+      boolean btn_cc_set_dec;
+
+      @verbatim (language="comment", text=
+        "Cruise Control Gap+")
+      boolean btn_cc_gap_inc;
+
+      @verbatim (language="comment", text=
+        "Cruise Control Gap-")
+      boolean btn_cc_gap_dec;
+
+      @verbatim (language="comment", text=
+        "Lane Assist On/Off Toggle")
+      boolean btn_la_on_off;
+
+      @verbatim (language="comment", text=
+        "Left D-Pad OK")
+      boolean btn_ld_ok;
+
+      @verbatim (language="comment", text=
+        "Left D-Pad Up")
+      boolean btn_ld_up;
+
+      @verbatim (language="comment", text=
+        "Left D-Pad Down")
+      boolean btn_ld_down;
+
+      @verbatim (language="comment", text=
+        "Left D-Pad Left")
+      boolean btn_ld_left;
+
+      @verbatim (language="comment", text=
+        "Left D-Pad Right")
+      boolean btn_ld_right;
+
+      @verbatim (language="comment", text=
+        "Right D-Pad OK")
+      boolean btn_rd_ok;
+
+      @verbatim (language="comment", text=
+        "Right D-Pad Up")
+      boolean btn_rd_up;
+
+      @verbatim (language="comment", text=
+        "Right D-Pad Down")
+      boolean btn_rd_down;
+
+      @verbatim (language="comment", text=
+        "Right D-Pad Left")
+      boolean btn_rd_left;
+
+      @verbatim (language="comment", text=
+        "Right D-Pad Right")
+      boolean btn_rd_right;
+
+      @verbatim (language="comment", text=
+        "Volume increment")
+      boolean btn_vol_inc;
+
+      @verbatim (language="comment", text=
+        "Volume decrement")
+      boolean btn_vol_dec;
+
+      @verbatim (language="comment", text=
+        "Volume mute")
+      boolean btn_mute;
+
+      @verbatim (language="comment", text=
+        "Media (source)")
+      boolean btn_media;
+
+      @verbatim (language="comment", text=
+        "Media previous")
+      boolean btn_prev;
+
+      @verbatim (language="comment", text=
+        "Media next")
+      boolean btn_next;
+
+      @verbatim (language="comment", text=
+        "Speak")
+      boolean btn_speak;
+
+      @verbatim (language="comment", text=
+        "Call start/answer")
+      boolean btn_call_start;
+
+      @verbatim (language="comment", text=
+        "Call end/disconnect")
+      boolean btn_call_end;
+
+      @verbatim (language="comment", text=
+        "Faults")
+      boolean fault_bus;
+
+      @verbatim (language="comment", text=
+        "Doors")
+      boolean door_driver;
+
+      boolean door_passenger;
+
+      boolean door_rear_left;
+
+      boolean door_rear_right;
+
+      boolean door_hood;
+
+      boolean door_trunk;
+
+      @verbatim (language="comment", text=
+        "Passenger seat")
+      boolean passenger_detect;
+
+      boolean passenger_airbag;
+
+      @verbatim (language="comment", text=
+        "Seat Belts")
+      boolean buckle_driver;
+
+      boolean buckle_passenger;
+    };
+  };
+};

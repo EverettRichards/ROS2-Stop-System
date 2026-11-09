@@ -1,0 +1,54 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from dbw_ford_msgs/msg/ThrottleReport.msg
+// generated code does not contain a copyright notice
+
+#include "dbw_ford_msgs/msg/WatchdogCounter.idl"
+#include "std_msgs/msg/Header.idl"
+
+module dbw_ford_msgs {
+  module msg {
+    struct ThrottleReport {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Throttle pedal" "\n"
+        "Unitless, range 0.15 to 0.80")
+      float pedal_input;
+
+      float pedal_cmd;
+
+      float pedal_output;
+
+      @verbatim (language="comment", text=
+        "Status" "\n"
+        "Enabled")
+      boolean enabled;
+
+      @verbatim (language="comment", text=
+        "Driver override")
+      boolean override;
+
+      @verbatim (language="comment", text=
+        "Driver activity")
+      boolean driver;
+
+      @verbatim (language="comment", text=
+        "Command timeout")
+      boolean timeout;
+
+      @verbatim (language="comment", text=
+        "Watchdog Counter")
+      dbw_ford_msgs::msg::WatchdogCounter watchdog_counter;
+
+      boolean fault_wdc;
+
+      @verbatim (language="comment", text=
+        "Faults")
+      boolean fault_ch1;
+
+      boolean fault_ch2;
+
+      boolean fault_power;
+    };
+  };
+};

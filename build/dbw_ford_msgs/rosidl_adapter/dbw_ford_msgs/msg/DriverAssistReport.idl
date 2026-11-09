@@ -1,0 +1,46 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from dbw_ford_msgs/msg/DriverAssistReport.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module dbw_ford_msgs {
+  module msg {
+    module DriverAssistReport_Constants {
+      const uint8 DECEL_NONE = 0;
+      const uint8 DECEL_AEB = 1;
+      const uint8 DECEL_ACC = 2;
+    };
+    struct DriverAssistReport {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Vehicle Decceleration (m/s^2)")
+      float decel;
+
+      @verbatim (language="comment", text=
+        "Deceleration source")
+      uint8 decel_src;
+
+      @verbatim (language="comment", text=
+        "FCW Status")
+      boolean fcw_enabled;
+
+      boolean fcw_active;
+
+      @verbatim (language="comment", text=
+        "AEB Status")
+      boolean aeb_enabled;
+
+      boolean aeb_precharge;
+
+      boolean aeb_braking;
+
+      @verbatim (language="comment", text=
+        "ACC Status")
+      boolean acc_enabled;
+
+      boolean acc_braking;
+    };
+  };
+};

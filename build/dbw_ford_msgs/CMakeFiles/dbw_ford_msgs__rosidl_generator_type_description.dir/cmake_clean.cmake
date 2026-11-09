@@ -1,0 +1,40 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/dbw_ford_msgs__rosidl_generator_type_description"
+  "rosidl_generator_type_description/dbw_ford_msgs/msg/AmbientLight.json"
+  "rosidl_generator_type_description/dbw_ford_msgs/msg/BrakeCmd.json"
+  "rosidl_generator_type_description/dbw_ford_msgs/msg/BrakeInfoReport.json"
+  "rosidl_generator_type_description/dbw_ford_msgs/msg/BrakeReport.json"
+  "rosidl_generator_type_description/dbw_ford_msgs/msg/DriverAssistReport.json"
+  "rosidl_generator_type_description/dbw_ford_msgs/msg/FuelLevelReport.json"
+  "rosidl_generator_type_description/dbw_ford_msgs/msg/Gear.json"
+  "rosidl_generator_type_description/dbw_ford_msgs/msg/GearCmd.json"
+  "rosidl_generator_type_description/dbw_ford_msgs/msg/GearNum.json"
+  "rosidl_generator_type_description/dbw_ford_msgs/msg/GearReject.json"
+  "rosidl_generator_type_description/dbw_ford_msgs/msg/GearReport.json"
+  "rosidl_generator_type_description/dbw_ford_msgs/msg/HillStartAssist.json"
+  "rosidl_generator_type_description/dbw_ford_msgs/msg/Ignition.json"
+  "rosidl_generator_type_description/dbw_ford_msgs/msg/Misc1Report.json"
+  "rosidl_generator_type_description/dbw_ford_msgs/msg/MiscCmd.json"
+  "rosidl_generator_type_description/dbw_ford_msgs/msg/OnePedal.json"
+  "rosidl_generator_type_description/dbw_ford_msgs/msg/ParkingBrake.json"
+  "rosidl_generator_type_description/dbw_ford_msgs/msg/ParkingBrakeCmd.json"
+  "rosidl_generator_type_description/dbw_ford_msgs/msg/QualityFactor.json"
+  "rosidl_generator_type_description/dbw_ford_msgs/msg/SteeringCmd.json"
+  "rosidl_generator_type_description/dbw_ford_msgs/msg/SteeringReport.json"
+  "rosidl_generator_type_description/dbw_ford_msgs/msg/SurroundReport.json"
+  "rosidl_generator_type_description/dbw_ford_msgs/msg/ThrottleCmd.json"
+  "rosidl_generator_type_description/dbw_ford_msgs/msg/ThrottleInfoReport.json"
+  "rosidl_generator_type_description/dbw_ford_msgs/msg/ThrottleReport.json"
+  "rosidl_generator_type_description/dbw_ford_msgs/msg/TirePressureReport.json"
+  "rosidl_generator_type_description/dbw_ford_msgs/msg/TurnSignal.json"
+  "rosidl_generator_type_description/dbw_ford_msgs/msg/TwistCmd.json"
+  "rosidl_generator_type_description/dbw_ford_msgs/msg/WatchdogCounter.json"
+  "rosidl_generator_type_description/dbw_ford_msgs/msg/WheelPositionReport.json"
+  "rosidl_generator_type_description/dbw_ford_msgs/msg/WheelSpeedReport.json"
+  "rosidl_generator_type_description/dbw_ford_msgs/msg/Wiper.json"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/dbw_ford_msgs__rosidl_generator_type_description.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

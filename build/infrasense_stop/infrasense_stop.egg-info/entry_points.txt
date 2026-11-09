@@ -1,0 +1,4 @@
+[console_scripts]
+ipi_receiver = infrasense_stop.ipi_receiver:main
+stop_controller = infrasense_stop.stop_controller:main
+stop_monitor = infrasense_stop.stop_monitor:main

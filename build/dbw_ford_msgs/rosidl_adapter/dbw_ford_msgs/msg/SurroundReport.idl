@@ -1,0 +1,60 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from dbw_ford_msgs/msg/SurroundReport.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module dbw_ford_msgs {
+  module msg {
+    typedef float float__12[12];
+    module SurroundReport_Constants {
+      @verbatim (language="comment", text=
+        "Sonar index enumeration")
+      const uint8 FRONT_LEFT_SIDE = 0;
+      const uint8 FRONT_LEFT_CORNER = 1;
+      const uint8 FRONT_LEFT_CENTER = 2;
+      const uint8 FRONT_RIGHT_CENTER = 3;
+      const uint8 FRONT_RIGHT_CORNER = 4;
+      const uint8 FRONT_RIGHT_SIDE = 5;
+      const uint8 REAR_LEFT_SIDE = 6;
+      const uint8 REAR_LEFT_CORNER = 7;
+      const uint8 REAR_LEFT_CENTER = 8;
+      const uint8 REAR_RIGHT_CENTER = 9;
+      const uint8 REAR_RIGHT_CORNER = 10;
+      const uint8 REAR_RIGHT_SIDE = 11;
+    };
+    struct SurroundReport {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Cross Traffic Alert (CTA)")
+      boolean cta_left_alert;
+
+      boolean cta_right_alert;
+
+      boolean cta_left_enabled;
+
+      boolean cta_right_enabled;
+
+      @verbatim (language="comment", text=
+        "Blind Spot Information System (BLIS)")
+      boolean blis_left_alert;
+
+      boolean blis_right_alert;
+
+      boolean blis_left_enabled;
+
+      boolean blis_right_enabled;
+
+      @verbatim (language="comment", text=
+        "Sonar Sensors")
+      boolean sonar_enabled;
+
+      boolean sonar_fault;
+
+      @verbatim (language="comment", text=
+        "Sonar ranges in meters, zero is no-detection")
+      float__12 sonar;
+    };
+  };
+};

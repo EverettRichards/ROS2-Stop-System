@@ -1,0 +1,26 @@
+[0.733s] Invoking command in '/home/everett/StopV2/build/infrasense_stop': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/everett/StopV2/build/infrasense_stop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/everett/StopV2/install/infrasense_stop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/everett/StopV2/build/infrasense_stop/build --no-deps symlink_data
+[0.975s] running develop
+[1.122s] running egg_info
+[1.122s] creating infrasense_stop.egg-info
+[1.137s] writing infrasense_stop.egg-info/PKG-INFO
+[1.138s] writing dependency_links to infrasense_stop.egg-info/dependency_links.txt
+[1.138s] writing entry points to infrasense_stop.egg-info/entry_points.txt
+[1.138s] writing requirements to infrasense_stop.egg-info/requires.txt
+[1.138s] writing top-level names to infrasense_stop.egg-info/top_level.txt
+[1.138s] writing manifest file 'infrasense_stop.egg-info/SOURCES.txt'
+[1.169s] reading manifest file 'infrasense_stop.egg-info/SOURCES.txt'
+[1.169s] writing manifest file 'infrasense_stop.egg-info/SOURCES.txt'
+[1.186s] running build_ext
+[1.187s] Creating /home/everett/StopV2/install/infrasense_stop/lib/python3.12/site-packages/infrasense-stop.egg-link (link to .)
+[1.187s] Installing ipi_receiver script to /home/everett/StopV2/install/infrasense_stop/lib/infrasense_stop
+[1.187s] Installing stop_controller script to /home/everett/StopV2/install/infrasense_stop/lib/infrasense_stop
+[1.187s] Installing stop_monitor script to /home/everett/StopV2/install/infrasense_stop/lib/infrasense_stop
+[1.188s] 
+[1.188s] Installed /home/everett/StopV2/build/infrasense_stop
+[1.188s] running symlink_data
+[1.188s] creating /home/everett/StopV2/install/infrasense_stop/share/ament_index
+[1.188s] creating /home/everett/StopV2/install/infrasense_stop/share/ament_index/resource_index
+[1.188s] creating /home/everett/StopV2/install/infrasense_stop/share/ament_index/resource_index/packages
+[1.188s] symbolically linking /home/everett/StopV2/build/infrasense_stop/resource/infrasense_stop -> /home/everett/StopV2/install/infrasense_stop/share/ament_index/resource_index/packages
+[1.188s] symbolically linking /home/everett/StopV2/build/infrasense_stop/package.xml -> /home/everett/StopV2/install/infrasense_stop/share/infrasense_stop
+[1.219s] Invoked command in '/home/everett/StopV2/build/infrasense_stop' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/everett/StopV2/build/infrasense_stop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/everett/StopV2/install/infrasense_stop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/everett/StopV2/build/infrasense_stop/build --no-deps symlink_data

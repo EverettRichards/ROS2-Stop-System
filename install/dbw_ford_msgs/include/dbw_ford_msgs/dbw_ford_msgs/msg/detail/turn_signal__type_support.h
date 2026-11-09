@@ -1,0 +1,1 @@
+/home/everett/StopV2/build/dbw_ford_msgs/rosidl_generator_c/dbw_ford_msgs/msg/detail/turn_signal__type_support.h

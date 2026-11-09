@@ -1,0 +1,66 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from dbw_ford_msgs/msg/SteeringReport.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module dbw_ford_msgs {
+  module msg {
+    module SteeringReport_Constants {
+      @verbatim (language="comment", text=
+        "Command types")
+      const uint8 CMD_ANGLE = 0;
+      const uint8 CMD_TORQUE = 1;
+    };
+    struct SteeringReport {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Steering Wheel" "\n"
+        "rad")
+      float steering_wheel_angle;
+
+      @verbatim (language="comment", text=
+        "rad or Nm")
+      float steering_wheel_cmd;
+
+      @verbatim (language="comment", text=
+        "Nm")
+      float steering_wheel_torque;
+
+      uint8 steering_wheel_cmd_type;
+
+      @verbatim (language="comment", text=
+        "Vehicle Speed" "\n"
+        "m/s")
+      float speed;
+
+      @verbatim (language="comment", text=
+        "Status" "\n"
+        "Enabled")
+      boolean enabled;
+
+      @verbatim (language="comment", text=
+        "Driver override")
+      boolean override;
+
+      @verbatim (language="comment", text=
+        "Command timeout")
+      boolean timeout;
+
+      @verbatim (language="comment", text=
+        "Watchdog Counter")
+      boolean fault_wdc;
+
+      @verbatim (language="comment", text=
+        "Faults")
+      boolean fault_bus1;
+
+      boolean fault_bus2;
+
+      boolean fault_calibration;
+
+      boolean fault_power;
+    };
+  };
+};

@@ -1,0 +1,1109 @@
+[0.007s] Invoking command in '/home/everett/StopV2/build/dbw_ford_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/everett/StopV2/src/dbw_ford_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/everett/StopV2/install/dbw_ford_msgs
+[0.049s] -- The C compiler identification is GNU 13.3.0
+[0.092s] -- The CXX compiler identification is GNU 13.3.0
+[0.105s] -- Detecting C compiler ABI info
+[0.171s] -- Detecting C compiler ABI info - done
+[0.178s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.178s] -- Detecting C compile features
+[0.179s] -- Detecting C compile features - done
+[0.185s] -- Detecting CXX compiler ABI info
+[0.252s] -- Detecting CXX compiler ABI info - done
+[0.262s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.262s] -- Detecting CXX compile features
+[0.262s] -- Detecting CXX compile features - done
+[0.264s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.365s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.421s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.436s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.438s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.467s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.493s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.495s] -- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.517s] -- Found geometry_msgs: 5.3.8 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.272s] -- Found ament_cmake_ros: 0.12.2 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.750s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.357s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.359s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.483s] -- Found PythonExtra: /usr/bin/python3  
+[2.833s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.920s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.932s] -- Configuring done (2.9s)
+[3.005s] -- Generating done (0.1s)
+[3.017s] -- Build files have been written to: /home/everett/StopV2/build/dbw_ford_msgs
+[3.026s] Invoked command in '/home/everett/StopV2/build/dbw_ford_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/everett/StopV2/src/dbw_ford_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/everett/StopV2/install/dbw_ford_msgs
+[3.028s] Invoking command in '/home/everett/StopV2/build/dbw_ford_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/everett/StopV2/build/dbw_ford_msgs -- -j12 -l12
+[3.096s] [  1%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[3.100s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[3.109s] [  1%] Built target ament_cmake_python_symlink_dbw_ford_msgs
+[3.286s] running egg_info
+[3.287s] creating dbw_ford_msgs.egg-info
+[3.302s] writing dbw_ford_msgs.egg-info/PKG-INFO
+[3.302s] writing dependency_links to dbw_ford_msgs.egg-info/dependency_links.txt
+[3.302s] writing top-level names to dbw_ford_msgs.egg-info/top_level.txt
+[3.303s] writing manifest file 'dbw_ford_msgs.egg-info/SOURCES.txt'
+[3.348s] reading manifest file 'dbw_ford_msgs.egg-info/SOURCES.txt'
+[3.348s] writing manifest file 'dbw_ford_msgs.egg-info/SOURCES.txt'
+[3.377s] [  1%] Built target ament_cmake_python_build_dbw_ford_msgs_egg
+[5.560s] [  1%] Built target dbw_ford_msgs__rosidl_generator_type_description
+[5.580s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.596s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.604s] [  1%] Built target dbw_ford_msgs__rs
+[9.130s] [  1%] Built target dbw_ford_msgs__cpp
+[9.811s] [  1%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/brake_info_report__description.c.o[0m
+[9.811s] [  1%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/brake_cmd__type_support.c.o[0m
+[9.811s] [  1%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/brake_info_report__type_support.c.o[0m
+[9.812s] [  1%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/brake_report__description.c.o[0m
+[9.812s] [  1%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/ambient_light__functions.c.o[0m
+[9.815s] [  2%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/brake_cmd__description.c.o[0m
+[9.815s] [  2%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/ambient_light__type_support.c.o[0m
+[9.815s] [  2%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/brake_cmd__functions.c.o[0m
+[9.816s] [  3%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/brake_info_report__functions.c.o[0m
+[9.816s] [  4%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/ambient_light__description.c.o[0m
+[9.817s] [  5%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/brake_report__functions.c.o[0m
+[9.820s] [  5%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/brake_report__type_support.c.o[0m
+[9.868s] [  5%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/driver_assist_report__description.c.o[0m
+[9.868s] [  5%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/driver_assist_report__functions.c.o[0m
+[9.886s] [  6%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/driver_assist_report__type_support.c.o[0m
+[9.892s] [  6%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/fuel_level_report__description.c.o[0m
+[9.906s] [  6%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/fuel_level_report__functions.c.o[0m
+[9.909s] [  7%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/fuel_level_report__type_support.c.o[0m
+[9.915s] [  7%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/gear_cmd__functions.c.o[0m
+[9.919s] [  7%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/gear_cmd__description.c.o[0m
+[9.925s] [  7%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/gear_cmd__type_support.c.o[0m
+[9.940s] [  8%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/gear__description.c.o[0m
+[9.949s] [  8%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/gear__functions.c.o[0m
+[9.955s] [  8%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/gear__type_support.c.o[0m
+[9.985s] [  9%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/gear_num__description.c.o[0m
+[9.989s] [  9%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/gear_num__functions.c.o[0m
+[9.993s] [ 10%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/gear_reject__functions.c.o[0m
+[9.995s] [ 10%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/gear_reject__description.c.o[0m
+[10.016s] [ 10%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/gear_num__type_support.c.o[0m
+[10.030s] [ 10%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/gear_reject__type_support.c.o[0m
+[10.034s] [ 10%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/gear_report__description.c.o[0m
+[10.036s] [ 11%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/gear_report__functions.c.o[0m
+[10.053s] [ 11%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/gear_report__type_support.c.o[0m
+[10.053s] [ 11%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/hill_start_assist__description.c.o[0m
+[10.058s] [ 12%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/hill_start_assist__functions.c.o[0m
+[10.060s] [ 12%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/hill_start_assist__type_support.c.o[0m
+[10.080s] [ 12%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/ignition__description.c.o[0m
+[10.083s] [ 12%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/ignition__functions.c.o[0m
+[10.117s] [ 12%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/misc_cmd__description.c.o[0m
+[10.129s] [ 12%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/misc_cmd__functions.c.o[0m
+[10.131s] [ 13%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/misc_cmd__type_support.c.o[0m
+[10.138s] [ 14%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/ignition__type_support.c.o[0m
+[10.147s] [ 14%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/misc1_report__description.c.o[0m
+[10.161s] [ 14%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/misc1_report__functions.c.o[0m
+[10.164s] [ 14%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/misc1_report__type_support.c.o[0m
+[10.173s] [ 14%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/one_pedal__functions.c.o[0m
+[10.182s] [ 14%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/one_pedal__type_support.c.o[0m
+[10.182s] [ 15%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/one_pedal__description.c.o[0m
+[10.197s] [ 16%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/parking_brake__functions.c.o[0m
+[10.197s] [ 16%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/parking_brake__description.c.o[0m
+[10.223s] [ 16%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/parking_brake__type_support.c.o[0m
+[10.230s] [ 16%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/parking_brake_cmd__description.c.o[0m
+[10.264s] [ 17%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/parking_brake_cmd__functions.c.o[0m
+[10.266s] [ 17%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/parking_brake_cmd__type_support.c.o[0m
+[10.268s] [ 17%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/quality_factor__description.c.o[0m
+[10.271s] [ 18%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/quality_factor__functions.c.o[0m
+[10.286s] [ 18%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/quality_factor__type_support.c.o[0m
+[10.299s] [ 18%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/steering_cmd__description.c.o[0m
+[10.302s] [ 18%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/steering_cmd__functions.c.o[0m
+[10.307s] [ 19%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/steering_cmd__type_support.c.o[0m
+[10.312s] [ 19%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/steering_report__description.c.o[0m
+[10.314s] [ 19%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/steering_report__functions.c.o[0m
+[10.341s] [ 19%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/surround_report__description.c.o[0m
+[10.346s] [ 20%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/steering_report__type_support.c.o[0m
+[10.357s] [ 20%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/surround_report__functions.c.o[0m
+[10.383s] [ 20%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/throttle_cmd__functions.c.o[0m
+[10.385s] [ 21%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/throttle_cmd__description.c.o[0m
+[10.386s] [ 21%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/surround_report__type_support.c.o[0m
+[10.393s] [ 21%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/throttle_cmd__type_support.c.o[0m
+[10.426s] [ 22%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/throttle_info_report__description.c.o[0m
+[10.436s] [ 22%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/throttle_info_report__functions.c.o[0m
+[10.442s] [ 22%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/throttle_info_report__type_support.c.o[0m
+[10.456s] [ 22%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/throttle_report__functions.c.o[0m
+[10.459s] [ 23%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/throttle_report__description.c.o[0m
+[10.460s] [ 23%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/tire_pressure_report__description.c.o[0m
+[10.466s] [ 24%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/tire_pressure_report__functions.c.o[0m
+[10.469s] [ 24%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/throttle_report__type_support.c.o[0m
+[10.494s] [ 24%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/tire_pressure_report__type_support.c.o[0m
+[10.523s] [ 24%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/turn_signal__description.c.o[0m
+[10.532s] [ 25%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/turn_signal__functions.c.o[0m
+[10.534s] [ 25%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/turn_signal__type_support.c.o[0m
+[10.556s] [ 25%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/twist_cmd__description.c.o[0m
+[10.559s] [ 25%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/twist_cmd__functions.c.o[0m
+[10.566s] [ 26%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/twist_cmd__type_support.c.o[0m
+[10.594s] [ 26%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/watchdog_counter__functions.c.o[0m
+[10.606s] [ 27%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/watchdog_counter__type_support.c.o[0m
+[10.610s] [ 27%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/watchdog_counter__description.c.o[0m
+[10.619s] [ 27%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/wheel_position_report__description.c.o[0m
+[10.628s] [ 27%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/wheel_position_report__functions.c.o[0m
+[10.629s] [ 27%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/wheel_position_report__type_support.c.o[0m
+[10.632s] [ 28%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/wheel_speed_report__description.c.o[0m
+[10.651s] [ 28%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/wheel_speed_report__functions.c.o[0m
+[10.658s] [ 28%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/wheel_speed_report__type_support.c.o[0m
+[10.662s] [ 29%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/wiper__description.c.o[0m
+[10.692s] [ 29%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/wiper__functions.c.o[0m
+[10.705s] [ 29%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_c.dir/rosidl_generator_c/dbw_ford_msgs/msg/detail/wiper__type_support.c.o[0m
+[10.811s] [ 29%] [32m[1mLinking C shared library libdbw_ford_msgs__rosidl_generator_c.so[0m
+[10.901s] [ 29%] Built target dbw_ford_msgs__rosidl_generator_c
+[10.919s] [ 30%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[10.920s] [ 30%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[10.925s] [ 30%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[10.926s] [ 30%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[10.928s] [ 30%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[10.929s] [ 30%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[15.656s] [ 32%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dbw_ford_msgs/msg/brake_info_report__type_support.cpp.o[0m
+[15.657s] [ 32%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dbw_ford_msgs/msg/brake_report__type_support.cpp.o[0m
+[15.657s] [ 32%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dbw_ford_msgs/msg/gear_cmd__type_support.cpp.o[0m
+[15.657s] [ 32%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dbw_ford_msgs/msg/brake_cmd__type_support.cpp.o[0m
+[15.659s] [ 33%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dbw_ford_msgs/msg/ambient_light__type_support.cpp.o[0m
+[15.661s] [ 33%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dbw_ford_msgs/msg/fuel_level_report__type_support.cpp.o[0m
+[15.662s] [ 33%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dbw_ford_msgs/msg/driver_assist_report__type_support.cpp.o[0m
+[16.455s] [ 33%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dbw_ford_msgs/msg/gear__type_support.cpp.o[0m
+[16.458s] [ 33%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dbw_ford_msgs/msg/gear_num__type_support.cpp.o[0m
+[16.606s] [ 33%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dbw_ford_msgs/msg/gear_reject__type_support.cpp.o[0m
+[16.763s] [ 34%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dbw_ford_msgs/msg/gear_report__type_support.cpp.o[0m
+[16.790s] [ 34%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dbw_ford_msgs/msg/ambient_light__type_support.cpp.o[0m
+[16.807s] [ 34%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dbw_ford_msgs/msg/ignition__type_support.cpp.o[0m
+[16.814s] [ 34%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dbw_ford_msgs/msg/hill_start_assist__type_support.cpp.o[0m
+[16.841s] [ 35%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dbw_ford_msgs/msg/misc_cmd__type_support.cpp.o[0m
+[16.916s] [ 35%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dbw_ford_msgs/msg/brake_cmd__type_support.cpp.o[0m
+[17.051s] [ 36%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dbw_ford_msgs/msg/brake_info_report__type_support.cpp.o[0m
+[17.188s] [ 36%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dbw_ford_msgs/msg/brake_report__type_support.cpp.o[0m
+[17.234s] [ 36%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dbw_ford_msgs/msg/detail/ambient_light__type_support.cpp.o[0m
+[17.340s] [ 36%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dbw_ford_msgs/msg/driver_assist_report__type_support.cpp.o[0m
+[17.399s] [ 36%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dbw_ford_msgs/msg/detail/brake_cmd__type_support.cpp.o[0m
+[17.499s] [ 36%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dbw_ford_msgs/msg/fuel_level_report__type_support.cpp.o[0m
+[17.591s] [ 37%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dbw_ford_msgs/msg/gear_cmd__type_support.cpp.o[0m
+[17.701s] [ 38%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dbw_ford_msgs/msg/detail/brake_info_report__type_support.cpp.o[0m
+[17.743s] [ 38%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dbw_ford_msgs/msg/gear__type_support.cpp.o[0m
+[17.763s] [ 38%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dbw_ford_msgs/msg/misc1_report__type_support.cpp.o[0m
+[17.871s] [ 38%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dbw_ford_msgs/msg/detail/brake_report__type_support.cpp.o[0m
+[17.881s] [ 38%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dbw_ford_msgs/msg/gear_num__type_support.cpp.o[0m
+[17.899s] [ 39%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dbw_ford_msgs/msg/gear_reject__type_support.cpp.o[0m
+[17.959s] [ 39%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dbw_ford_msgs/msg/detail/driver_assist_report__type_support.cpp.o[0m
+[18.044s] [ 39%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dbw_ford_msgs/msg/detail/gear_cmd__type_support.cpp.o[0m
+[18.062s] [ 39%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dbw_ford_msgs/msg/detail/ambient_light__type_support.c.o[0m
+[18.062s] [ 40%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dbw_ford_msgs/msg/gear_report__type_support.cpp.o[0m
+[18.067s] [ 40%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dbw_ford_msgs/msg/detail/fuel_level_report__type_support.cpp.o[0m
+[18.164s] [ 41%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dbw_ford_msgs/msg/detail/brake_cmd__type_support.c.o[0m
+[18.258s] [ 41%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dbw_ford_msgs/msg/detail/brake_info_report__type_support.c.o[0m
+[18.320s] [ 41%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dbw_ford_msgs/msg/hill_start_assist__type_support.cpp.o[0m
+[18.416s] [ 41%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dbw_ford_msgs/msg/detail/brake_report__type_support.c.o[0m
+[18.435s] [ 41%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dbw_ford_msgs/msg/detail/gear__type_support.cpp.o[0m
+[18.498s] [ 41%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dbw_ford_msgs/msg/ignition__type_support.cpp.o[0m
+[18.551s] [ 41%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dbw_ford_msgs/msg/one_pedal__type_support.cpp.o[0m
+[18.556s] [ 42%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dbw_ford_msgs/msg/detail/driver_assist_report__type_support.c.o[0m
+[18.603s] [ 43%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dbw_ford_msgs/msg/misc_cmd__type_support.cpp.o[0m
+[18.661s] [ 43%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dbw_ford_msgs/msg/parking_brake__type_support.cpp.o[0m
+[18.668s] [ 43%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dbw_ford_msgs/msg/detail/fuel_level_report__type_support.c.o[0m
+[18.713s] [ 43%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dbw_ford_msgs/msg/misc1_report__type_support.cpp.o[0m
+[18.758s] [ 43%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dbw_ford_msgs/msg/detail/gear_cmd__type_support.c.o[0m
+[18.811s] [ 43%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dbw_ford_msgs/msg/one_pedal__type_support.cpp.o[0m
+[18.912s] [ 43%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dbw_ford_msgs/msg/detail/gear__type_support.c.o[0m
+[18.979s] [ 44%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dbw_ford_msgs/msg/parking_brake__type_support.cpp.o[0m
+[19.001s] [ 45%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dbw_ford_msgs/msg/detail/gear_num__type_support.cpp.o[0m
+[19.019s] [ 46%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dbw_ford_msgs/msg/detail/gear_num__type_support.c.o[0m
+[19.118s] [ 47%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dbw_ford_msgs/msg/parking_brake_cmd__type_support.cpp.o[0m
+[19.119s] [ 47%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dbw_ford_msgs/msg/detail/gear_reject__type_support.c.o[0m
+[19.134s] [ 47%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dbw_ford_msgs/msg/parking_brake_cmd__type_support.cpp.o[0m
+[19.167s] [ 47%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dbw_ford_msgs/msg/detail/gear_reject__type_support.cpp.o[0m
+[19.243s] [ 47%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dbw_ford_msgs/msg/detail/gear_report__type_support.c.o[0m
+[19.284s] [ 47%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dbw_ford_msgs/msg/detail/gear_report__type_support.cpp.o[0m
+[19.325s] [ 47%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dbw_ford_msgs/msg/quality_factor__type_support.cpp.o[0m
+[19.412s] [ 48%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dbw_ford_msgs/msg/detail/hill_start_assist__type_support.c.o[0m
+[19.456s] [ 48%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dbw_ford_msgs/msg/steering_cmd__type_support.cpp.o[0m
+[19.481s] [ 48%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dbw_ford_msgs/msg/quality_factor__type_support.cpp.o[0m
+[19.481s] [ 48%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dbw_ford_msgs/msg/detail/ignition__type_support.c.o[0m
+[19.574s] [ 48%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dbw_ford_msgs/msg/detail/misc_cmd__type_support.c.o[0m
+[19.576s] [ 48%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dbw_ford_msgs/msg/detail/hill_start_assist__type_support.cpp.o[0m
+[19.592s] [ 49%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dbw_ford_msgs/msg/steering_report__type_support.cpp.o[0m
+[19.613s] [ 49%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dbw_ford_msgs/msg/steering_cmd__type_support.cpp.o[0m
+[19.626s] [ 50%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dbw_ford_msgs/msg/steering_report__type_support.cpp.o[0m
+[19.686s] [ 50%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dbw_ford_msgs/msg/detail/misc1_report__type_support.c.o[0m
+[19.749s] [ 50%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dbw_ford_msgs/msg/surround_report__type_support.cpp.o[0m
+[19.859s] [ 51%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dbw_ford_msgs/msg/detail/one_pedal__type_support.c.o[0m
+[19.965s] [ 51%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dbw_ford_msgs/msg/throttle_cmd__type_support.cpp.o[0m
+[20.011s] [ 51%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dbw_ford_msgs/msg/detail/parking_brake__type_support.c.o[0m
+[20.012s] [ 52%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dbw_ford_msgs/msg/detail/ignition__type_support.cpp.o[0m
+[20.125s] [ 53%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dbw_ford_msgs/msg/throttle_info_report__type_support.cpp.o[0m
+[20.129s] [ 53%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dbw_ford_msgs/msg/detail/parking_brake_cmd__type_support.c.o[0m
+[20.178s] [ 53%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dbw_ford_msgs/msg/surround_report__type_support.cpp.o[0m
+[20.230s] [ 53%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dbw_ford_msgs/msg/throttle_report__type_support.cpp.o[0m
+[20.240s] [ 54%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dbw_ford_msgs/msg/detail/quality_factor__type_support.c.o[0m
+[20.271s] [ 54%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dbw_ford_msgs/msg/throttle_cmd__type_support.cpp.o[0m
+[20.300s] [ 54%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dbw_ford_msgs/msg/tire_pressure_report__type_support.cpp.o[0m
+[20.327s] [ 54%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dbw_ford_msgs/msg/detail/steering_cmd__type_support.c.o[0m
+[20.350s] [ 54%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dbw_ford_msgs/msg/detail/misc_cmd__type_support.cpp.o[0m
+[20.358s] [ 54%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dbw_ford_msgs/msg/throttle_info_report__type_support.cpp.o[0m
+[20.380s] [ 54%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dbw_ford_msgs/msg/turn_signal__type_support.cpp.o[0m
+[20.407s] [ 54%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dbw_ford_msgs/msg/detail/misc1_report__type_support.cpp.o[0m
+[20.419s] [ 54%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dbw_ford_msgs/msg/detail/steering_report__type_support.c.o[0m
+[20.481s] [ 55%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dbw_ford_msgs/msg/twist_cmd__type_support.cpp.o[0m
+[20.510s] [ 55%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dbw_ford_msgs/msg/detail/surround_report__type_support.c.o[0m
+[20.583s] [ 55%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dbw_ford_msgs/msg/watchdog_counter__type_support.cpp.o[0m
+[20.618s] [ 56%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dbw_ford_msgs/msg/detail/throttle_cmd__type_support.c.o[0m
+[20.676s] [ 57%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dbw_ford_msgs/msg/throttle_report__type_support.cpp.o[0m
+[20.697s] [ 57%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dbw_ford_msgs/msg/wheel_position_report__type_support.cpp.o[0m
+[20.784s] [ 57%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dbw_ford_msgs/msg/detail/throttle_info_report__type_support.c.o[0m
+[20.806s] [ 57%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dbw_ford_msgs/msg/detail/throttle_report__type_support.c.o[0m
+[20.833s] [ 58%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dbw_ford_msgs/msg/wheel_speed_report__type_support.cpp.o[0m
+[20.907s] [ 59%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dbw_ford_msgs/msg/detail/one_pedal__type_support.cpp.o[0m
+[20.933s] [ 60%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dbw_ford_msgs/msg/detail/tire_pressure_report__type_support.c.o[0m
+[20.964s] [ 60%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dbw_ford_msgs/msg/wiper__type_support.cpp.o[0m
+[21.048s] [ 60%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dbw_ford_msgs/msg/detail/turn_signal__type_support.c.o[0m
+[21.077s] [ 60%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dbw_ford_msgs/msg/tire_pressure_report__type_support.cpp.o[0m
+[21.082s] [ 60%] [32m[1mLinking CXX shared library libdbw_ford_msgs__rosidl_typesupport_c.so[0m
+[21.156s] [ 60%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dbw_ford_msgs/msg/detail/twist_cmd__type_support.c.o[0m
+[21.204s] [ 60%] Built target dbw_ford_msgs__rosidl_typesupport_c
+[21.223s] [ 60%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dbw_ford_msgs/msg/turn_signal__type_support.cpp.o[0m
+[21.272s] [ 60%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dbw_ford_msgs/msg/detail/watchdog_counter__type_support.c.o[0m
+[21.313s] [ 60%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dbw_ford_msgs/msg/detail/dds_fastrtps/ambient_light__type_support.cpp.o[0m
+[21.338s] [ 61%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dbw_ford_msgs/msg/twist_cmd__type_support.cpp.o[0m
+[21.380s] [ 61%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dbw_ford_msgs/msg/detail/parking_brake__type_support.cpp.o[0m
+[21.387s] [ 62%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dbw_ford_msgs/msg/detail/wheel_position_report__type_support.c.o[0m
+[21.394s] [ 63%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dbw_ford_msgs/msg/detail/dds_fastrtps/brake_cmd__type_support.cpp.o[0m
+[21.405s] [ 63%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dbw_ford_msgs/msg/detail/wheel_speed_report__type_support.c.o[0m
+[21.492s] [ 63%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dbw_ford_msgs/msg/detail/wiper__type_support.c.o[0m
+[21.497s] [ 63%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dbw_ford_msgs/msg/watchdog_counter__type_support.cpp.o[0m
+[21.587s] [ 64%] [32m[1mLinking C shared library libdbw_ford_msgs__rosidl_typesupport_introspection_c.so[0m
+[21.702s] [ 64%] Built target dbw_ford_msgs__rosidl_typesupport_introspection_c
+[21.711s] [ 64%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dbw_ford_msgs/msg/detail/parking_brake_cmd__type_support.cpp.o[0m
+[21.739s] [ 64%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dbw_ford_msgs/msg/detail/dds_fastrtps/brake_info_report__type_support.cpp.o[0m
+[21.915s] [ 64%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dbw_ford_msgs/msg/detail/quality_factor__type_support.cpp.o[0m
+[22.015s] [ 64%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dbw_ford_msgs/msg/detail/dds_fastrtps/brake_report__type_support.cpp.o[0m
+[22.057s] [ 64%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dbw_ford_msgs/msg/wheel_position_report__type_support.cpp.o[0m
+[22.153s] [ 65%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dbw_ford_msgs/msg/detail/steering_cmd__type_support.cpp.o[0m
+[22.187s] [ 66%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dbw_ford_msgs/msg/detail/ambient_light__type_support_c.cpp.o[0m
+[22.389s] [ 67%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dbw_ford_msgs/msg/detail/dds_fastrtps/driver_assist_report__type_support.cpp.o[0m
+[22.399s] [ 67%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dbw_ford_msgs/msg/detail/dds_fastrtps/fuel_level_report__type_support.cpp.o[0m
+[22.494s] [ 67%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dbw_ford_msgs/msg/detail/brake_cmd__type_support_c.cpp.o[0m
+[22.554s] [ 67%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dbw_ford_msgs/msg/wheel_speed_report__type_support.cpp.o[0m
+[22.778s] [ 67%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dbw_ford_msgs/msg/detail/dds_fastrtps/gear_cmd__type_support.cpp.o[0m
+[22.783s] [ 67%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dbw_ford_msgs/msg/detail/brake_info_report__type_support_c.cpp.o[0m
+[23.047s] [ 68%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dbw_ford_msgs/msg/wiper__type_support.cpp.o[0m
+[23.120s] [ 69%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dbw_ford_msgs/msg/detail/dds_fastrtps/gear__type_support.cpp.o[0m
+[23.262s] [ 69%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dbw_ford_msgs/msg/detail/steering_report__type_support.cpp.o[0m
+[23.647s] [ 69%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dbw_ford_msgs/msg/detail/dds_fastrtps/gear_num__type_support.cpp.o[0m
+[23.792s] [ 69%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dbw_ford_msgs/msg/detail/dds_fastrtps/gear_reject__type_support.cpp.o[0m
+[23.825s] [ 70%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dbw_ford_msgs/msg/detail/brake_report__type_support_c.cpp.o[0m
+[23.854s] [ 70%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dbw_ford_msgs/msg/detail/dds_fastrtps/gear_report__type_support.cpp.o[0m
+[23.971s] [ 70%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dbw_ford_msgs/msg/detail/surround_report__type_support.cpp.o[0m
+[23.994s] [ 71%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dbw_ford_msgs/msg/detail/throttle_cmd__type_support.cpp.o[0m
+[24.189s] [ 71%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dbw_ford_msgs/msg/detail/throttle_info_report__type_support.cpp.o[0m
+[24.196s] [ 71%] [32m[1mLinking CXX shared library libdbw_ford_msgs__rosidl_typesupport_cpp.so[0m
+[24.237s] [ 71%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dbw_ford_msgs/msg/detail/driver_assist_report__type_support_c.cpp.o[0m
+[24.314s] [ 71%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dbw_ford_msgs/msg/detail/throttle_report__type_support.cpp.o[0m
+[24.355s] [ 71%] Built target dbw_ford_msgs__rosidl_typesupport_cpp
+[24.383s] [ 72%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dbw_ford_msgs/msg/detail/dds_fastrtps/hill_start_assist__type_support.cpp.o[0m
+[24.745s] [ 72%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dbw_ford_msgs/msg/detail/dds_fastrtps/ignition__type_support.cpp.o[0m
+[25.051s] [ 72%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dbw_ford_msgs/msg/detail/dds_fastrtps/misc_cmd__type_support.cpp.o[0m
+[25.173s] [ 72%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dbw_ford_msgs/msg/detail/tire_pressure_report__type_support.cpp.o[0m
+[25.277s] [ 73%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dbw_ford_msgs/msg/detail/dds_fastrtps/misc1_report__type_support.cpp.o[0m
+[25.305s] [ 73%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dbw_ford_msgs/msg/detail/fuel_level_report__type_support_c.cpp.o[0m
+[25.352s] [ 73%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dbw_ford_msgs/msg/detail/dds_fastrtps/one_pedal__type_support.cpp.o[0m
+[25.417s] [ 73%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dbw_ford_msgs/msg/detail/dds_fastrtps/parking_brake__type_support.cpp.o[0m
+[25.722s] [ 74%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dbw_ford_msgs/msg/detail/turn_signal__type_support.cpp.o[0m
+[25.729s] [ 74%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dbw_ford_msgs/msg/detail/gear_cmd__type_support_c.cpp.o[0m
+[25.738s] [ 74%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dbw_ford_msgs/msg/detail/twist_cmd__type_support.cpp.o[0m
+[26.071s] [ 75%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dbw_ford_msgs/msg/detail/gear__type_support_c.cpp.o[0m
+[26.218s] [ 75%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dbw_ford_msgs/msg/detail/watchdog_counter__type_support.cpp.o[0m
+[26.430s] [ 75%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dbw_ford_msgs/msg/detail/gear_num__type_support_c.cpp.o[0m
+[26.509s] [ 75%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dbw_ford_msgs/msg/detail/gear_reject__type_support_c.cpp.o[0m
+[26.681s] [ 76%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dbw_ford_msgs/msg/detail/gear_report__type_support_c.cpp.o[0m
+[26.780s] [ 76%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dbw_ford_msgs/msg/detail/dds_fastrtps/parking_brake_cmd__type_support.cpp.o[0m
+[26.844s] [ 76%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dbw_ford_msgs/msg/detail/hill_start_assist__type_support_c.cpp.o[0m
+[26.946s] [ 76%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dbw_ford_msgs/msg/detail/ignition__type_support_c.cpp.o[0m
+[27.088s] [ 77%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dbw_ford_msgs/msg/detail/dds_fastrtps/quality_factor__type_support.cpp.o[0m
+[27.163s] [ 77%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dbw_ford_msgs/msg/detail/dds_fastrtps/steering_cmd__type_support.cpp.o[0m
+[27.401s] [ 78%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dbw_ford_msgs/msg/detail/wheel_position_report__type_support.cpp.o[0m
+[27.423s] [ 78%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dbw_ford_msgs/msg/detail/wheel_speed_report__type_support.cpp.o[0m
+[27.470s] [ 78%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dbw_ford_msgs/msg/detail/wiper__type_support.cpp.o[0m
+[27.872s] [ 78%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dbw_ford_msgs/msg/detail/misc_cmd__type_support_c.cpp.o[0m
+[28.000s] [ 78%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dbw_ford_msgs/msg/detail/dds_fastrtps/steering_report__type_support.cpp.o[0m
+[28.272s] [ 79%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dbw_ford_msgs/msg/detail/dds_fastrtps/surround_report__type_support.cpp.o[0m
+[28.412s] [ 79%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dbw_ford_msgs/msg/detail/dds_fastrtps/throttle_cmd__type_support.cpp.o[0m
+[28.479s] [ 80%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dbw_ford_msgs/msg/detail/misc1_report__type_support_c.cpp.o[0m
+[28.507s] [ 80%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dbw_ford_msgs/msg/detail/dds_fastrtps/throttle_info_report__type_support.cpp.o[0m
+[28.508s] [ 80%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dbw_ford_msgs/msg/detail/one_pedal__type_support_c.cpp.o[0m
+[28.581s] [ 80%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dbw_ford_msgs/msg/detail/parking_brake__type_support_c.cpp.o[0m
+[28.725s] [ 80%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dbw_ford_msgs/msg/detail/dds_fastrtps/throttle_report__type_support.cpp.o[0m
+[28.804s] [ 81%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dbw_ford_msgs/msg/detail/parking_brake_cmd__type_support_c.cpp.o[0m
+[28.948s] [ 81%] [32m[1mLinking CXX shared library libdbw_ford_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[29.197s] [ 81%] Built target dbw_ford_msgs__rosidl_typesupport_introspection_cpp
+[29.216s] [ 81%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dbw_ford_msgs/msg/detail/quality_factor__type_support_c.cpp.o[0m
+[29.239s] [ 81%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dbw_ford_msgs/msg/detail/steering_cmd__type_support_c.cpp.o[0m
+[29.302s] [ 81%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dbw_ford_msgs/msg/detail/steering_report__type_support_c.cpp.o[0m
+[29.457s] [ 82%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dbw_ford_msgs/msg/detail/dds_fastrtps/tire_pressure_report__type_support.cpp.o[0m
+[29.968s] [ 83%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dbw_ford_msgs/msg/detail/surround_report__type_support_c.cpp.o[0m
+[30.326s] [ 83%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dbw_ford_msgs/msg/detail/throttle_cmd__type_support_c.cpp.o[0m
+[30.354s] [ 83%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dbw_ford_msgs/msg/detail/throttle_info_report__type_support_c.cpp.o[0m
+[30.409s] [ 83%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dbw_ford_msgs/msg/detail/dds_fastrtps/turn_signal__type_support.cpp.o[0m
+[30.442s] [ 83%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dbw_ford_msgs/msg/detail/dds_fastrtps/twist_cmd__type_support.cpp.o[0m
+[30.514s] [ 84%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dbw_ford_msgs/msg/detail/throttle_report__type_support_c.cpp.o[0m
+[30.604s] [ 85%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dbw_ford_msgs/msg/detail/dds_fastrtps/watchdog_counter__type_support.cpp.o[0m
+[30.755s] [ 85%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dbw_ford_msgs/msg/detail/tire_pressure_report__type_support_c.cpp.o[0m
+[30.805s] [ 85%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dbw_ford_msgs/msg/detail/dds_fastrtps/wheel_position_report__type_support.cpp.o[0m
+[30.952s] [ 85%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dbw_ford_msgs/msg/detail/dds_fastrtps/wheel_speed_report__type_support.cpp.o[0m
+[31.097s] [ 85%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dbw_ford_msgs/msg/detail/turn_signal__type_support_c.cpp.o[0m
+[31.196s] [ 85%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dbw_ford_msgs/msg/detail/dds_fastrtps/wiper__type_support.cpp.o[0m
+[31.945s] [ 85%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dbw_ford_msgs/msg/detail/twist_cmd__type_support_c.cpp.o[0m
+[32.042s] [ 86%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dbw_ford_msgs/msg/detail/watchdog_counter__type_support_c.cpp.o[0m
+[32.061s] [ 86%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dbw_ford_msgs/msg/detail/wheel_speed_report__type_support_c.cpp.o[0m
+[32.070s] [ 86%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dbw_ford_msgs/msg/detail/wheel_position_report__type_support_c.cpp.o[0m
+[32.090s] [ 87%] [32mBuilding CXX object CMakeFiles/dbw_ford_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dbw_ford_msgs/msg/detail/wiper__type_support_c.cpp.o[0m
+[32.736s] [ 88%] [32m[1mLinking CXX shared library libdbw_ford_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[32.897s] [ 88%] Built target dbw_ford_msgs__rosidl_typesupport_fastrtps_cpp
+[33.287s] [ 88%] [32m[1mLinking CXX shared library libdbw_ford_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[33.363s] [ 88%] Built target dbw_ford_msgs__rosidl_typesupport_fastrtps_c
+[33.398s] [ 88%] Built target dbw_ford_msgs
+[33.435s] [ 88%] [34m[1mGenerating Python code for ROS interfaces[0m
+[41.131s] [ 88%] Built target dbw_ford_msgs__py
+[41.175s] [ 89%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_py.dir/rosidl_generator_py/dbw_ford_msgs/msg/_gear_cmd_s.c.o[0m
+[41.176s] [ 91%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_py.dir/rosidl_generator_py/dbw_ford_msgs/msg/_brake_report_s.c.o[0m
+[41.176s] [ 91%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_py.dir/rosidl_generator_py/dbw_ford_msgs/msg/_brake_info_report_s.c.o[0m
+[41.176s] [ 91%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_py.dir/rosidl_generator_py/dbw_ford_msgs/msg/_brake_cmd_s.c.o[0m
+[41.176s] [ 91%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_py.dir/rosidl_generator_py/dbw_ford_msgs/msg/_ambient_light_s.c.o[0m
+[41.177s] [ 91%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_py.dir/rosidl_generator_py/dbw_ford_msgs/msg/_driver_assist_report_s.c.o[0m
+[41.177s] [ 91%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_py.dir/rosidl_generator_py/dbw_ford_msgs/msg/_fuel_level_report_s.c.o[0m
+[41.178s] [ 91%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_py.dir/rosidl_generator_py/dbw_ford_msgs/msg/_gear_s.c.o[0m
+[41.178s] [ 91%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_py.dir/rosidl_generator_py/dbw_ford_msgs/msg/_gear_reject_s.c.o[0m
+[41.185s] [ 91%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_py.dir/rosidl_generator_py/dbw_ford_msgs/msg/_hill_start_assist_s.c.o[0m
+[41.186s] [ 91%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_py.dir/rosidl_generator_py/dbw_ford_msgs/msg/_gear_num_s.c.o[0m
+[41.203s] [ 92%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_py.dir/rosidl_generator_py/dbw_ford_msgs/msg/_gear_report_s.c.o[0m
+[41.487s] [ 92%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_py.dir/rosidl_generator_py/dbw_ford_msgs/msg/_ignition_s.c.o[0m
+[41.529s] [ 93%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_py.dir/rosidl_generator_py/dbw_ford_msgs/msg/_misc_cmd_s.c.o[0m
+[41.532s] [ 93%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_py.dir/rosidl_generator_py/dbw_ford_msgs/msg/_misc1_report_s.c.o[0m
+[41.535s] [ 93%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_py.dir/rosidl_generator_py/dbw_ford_msgs/msg/_one_pedal_s.c.o[0m
+[41.536s] [ 93%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_py.dir/rosidl_generator_py/dbw_ford_msgs/msg/_parking_brake_s.c.o[0m
+[41.547s] [ 94%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_py.dir/rosidl_generator_py/dbw_ford_msgs/msg/_parking_brake_cmd_s.c.o[0m
+[41.584s] [ 94%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_py.dir/rosidl_generator_py/dbw_ford_msgs/msg/_steering_cmd_s.c.o[0m
+[41.589s] [ 94%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_py.dir/rosidl_generator_py/dbw_ford_msgs/msg/_quality_factor_s.c.o[0m
+[41.688s] [ 95%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_py.dir/rosidl_generator_py/dbw_ford_msgs/msg/_steering_report_s.c.o[0m
+[41.708s] [ 95%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_py.dir/rosidl_generator_py/dbw_ford_msgs/msg/_surround_report_s.c.o[0m
+[41.742s] [ 95%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_py.dir/rosidl_generator_py/dbw_ford_msgs/msg/_throttle_cmd_s.c.o[0m
+[41.841s] [ 95%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_py.dir/rosidl_generator_py/dbw_ford_msgs/msg/_throttle_info_report_s.c.o[0m
+[41.861s] [ 96%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_py.dir/rosidl_generator_py/dbw_ford_msgs/msg/_throttle_report_s.c.o[0m
+[41.892s] [ 96%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_py.dir/rosidl_generator_py/dbw_ford_msgs/msg/_tire_pressure_report_s.c.o[0m
+[41.896s] [ 96%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_py.dir/rosidl_generator_py/dbw_ford_msgs/msg/_turn_signal_s.c.o[0m
+[41.916s] [ 97%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_py.dir/rosidl_generator_py/dbw_ford_msgs/msg/_twist_cmd_s.c.o[0m
+[41.976s] [ 97%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_py.dir/rosidl_generator_py/dbw_ford_msgs/msg/_watchdog_counter_s.c.o[0m
+[42.054s] [ 97%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_py.dir/rosidl_generator_py/dbw_ford_msgs/msg/_wheel_position_report_s.c.o[0m
+[42.077s] [ 97%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_py.dir/rosidl_generator_py/dbw_ford_msgs/msg/_wheel_speed_report_s.c.o[0m
+[42.086s] [ 98%] [32mBuilding C object CMakeFiles/dbw_ford_msgs__rosidl_generator_py.dir/rosidl_generator_py/dbw_ford_msgs/msg/_wiper_s.c.o[0m
+[42.434s] [ 98%] [32m[1mLinking C shared library libdbw_ford_msgs__rosidl_generator_py.so[0m
+[42.526s] [ 98%] Built target dbw_ford_msgs__rosidl_generator_py
+[42.559s] [ 98%] [32mBuilding C object CMakeFiles/dbw_ford_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/dbw_ford_msgs/_dbw_ford_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[42.563s] [ 99%] [32mBuilding C object CMakeFiles/dbw_ford_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/dbw_ford_msgs/_dbw_ford_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[42.570s] [ 99%] [32mBuilding C object CMakeFiles/dbw_ford_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/dbw_ford_msgs/_dbw_ford_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[42.834s] [100%] [32m[1mLinking C shared module rosidl_generator_py/dbw_ford_msgs/dbw_ford_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[42.859s] [100%] [32m[1mLinking C shared module rosidl_generator_py/dbw_ford_msgs/dbw_ford_msgs_s__rosidl_typesupport_c.so[0m
+[42.893s] [100%] Built target dbw_ford_msgs_s__rosidl_typesupport_introspection_c
+[42.921s] [100%] Built target dbw_ford_msgs_s__rosidl_typesupport_c
+[42.921s] [100%] [32m[1mLinking C shared module rosidl_generator_py/dbw_ford_msgs/dbw_ford_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[42.991s] [100%] Built target dbw_ford_msgs_s__rosidl_typesupport_fastrtps_c
+[43.008s] Invoked command in '/home/everett/StopV2/build/dbw_ford_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/everett/StopV2/build/dbw_ford_msgs -- -j12 -l12
+[43.020s] Invoking command in '/home/everett/StopV2/build/dbw_ford_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/everett/StopV2/build/dbw_ford_msgs
+[43.030s] -- Install configuration: ""
+[43.032s] -- Execute custom install script
+[43.032s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/ament_index/resource_index/rosidl_interfaces/dbw_ford_msgs
+[43.043s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/AmbientLight.json
+[43.060s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/BrakeCmd.json
+[43.070s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/BrakeInfoReport.json
+[43.086s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/BrakeReport.json
+[43.100s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/DriverAssistReport.json
+[43.114s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/FuelLevelReport.json
+[43.124s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/GearCmd.json
+[43.138s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/Gear.json
+[43.150s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/GearNum.json
+[43.159s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/GearReject.json
+[43.174s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/GearReport.json
+[43.185s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/HillStartAssist.json
+[43.194s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/Ignition.json
+[43.205s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/MiscCmd.json
+[43.216s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/Misc1Report.json
+[43.227s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/OnePedal.json
+[43.239s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/ParkingBrake.json
+[43.249s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/ParkingBrakeCmd.json
+[43.261s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/QualityFactor.json
+[43.273s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/SteeringCmd.json
+[43.284s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/SteeringReport.json
+[43.296s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/SurroundReport.json
+[43.307s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/ThrottleCmd.json
+[43.316s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/ThrottleInfoReport.json
+[43.326s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/ThrottleReport.json
+[43.337s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/TirePressureReport.json
+[43.350s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/TurnSignal.json
+[43.360s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/TwistCmd.json
+[43.370s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/WatchdogCounter.json
+[43.380s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/WheelPositionReport.json
+[43.388s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/WheelSpeedReport.json
+[43.399s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/Wiper.json
+[43.410s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/ambient_light.h
+[43.423s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/brake_cmd.h
+[43.433s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/brake_info_report.h
+[43.443s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/brake_report.h
+[43.450s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/ambient_light__functions.h
+[43.458s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/ambient_light__struct.h
+[43.468s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/ambient_light__type_support.h
+[43.476s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/brake_cmd__functions.h
+[43.485s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/brake_cmd__struct.h
+[43.493s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/brake_cmd__type_support.h
+[43.503s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/brake_info_report__functions.h
+[43.511s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/brake_info_report__struct.h
+[43.519s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/brake_info_report__type_support.h
+[43.528s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/brake_report__functions.h
+[43.535s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/brake_report__struct.h
+[43.547s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/brake_report__type_support.h
+[43.554s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/driver_assist_report__functions.h
+[43.565s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/driver_assist_report__struct.h
+[43.575s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/driver_assist_report__type_support.h
+[43.585s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/fuel_level_report__functions.h
+[43.593s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/fuel_level_report__struct.h
+[43.601s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/fuel_level_report__type_support.h
+[43.611s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/gear__functions.h
+[43.623s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/gear__struct.h
+[43.635s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/gear__type_support.h
+[43.645s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/gear_cmd__functions.h
+[43.652s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/gear_cmd__struct.h
+[43.661s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/gear_cmd__type_support.h
+[43.669s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/gear_num__functions.h
+[43.676s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/gear_num__struct.h
+[43.686s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/gear_num__type_support.h
+[43.694s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/gear_reject__functions.h
+[43.706s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/gear_reject__struct.h
+[43.717s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/gear_reject__type_support.h
+[43.725s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/gear_report__functions.h
+[43.734s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/gear_report__struct.h
+[43.745s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/gear_report__type_support.h
+[43.755s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/hill_start_assist__functions.h
+[43.765s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/hill_start_assist__struct.h
+[43.772s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/hill_start_assist__type_support.h
+[43.781s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/ignition__functions.h
+[43.788s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/ignition__struct.h
+[43.799s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/ignition__type_support.h
+[43.810s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/misc1_report__functions.h
+[43.821s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/misc1_report__struct.h
+[43.829s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/misc1_report__type_support.h
+[43.839s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/misc_cmd__functions.h
+[43.850s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/misc_cmd__struct.h
+[43.861s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/misc_cmd__type_support.h
+[43.871s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/one_pedal__functions.h
+[43.878s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/one_pedal__struct.h
+[43.887s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/one_pedal__type_support.h
+[43.897s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/parking_brake__functions.h
+[43.903s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/parking_brake__struct.h
+[43.913s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/parking_brake__type_support.h
+[43.922s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/parking_brake_cmd__functions.h
+[43.932s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/parking_brake_cmd__struct.h
+[43.942s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/parking_brake_cmd__type_support.h
+[43.949s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/quality_factor__functions.h
+[43.958s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/quality_factor__struct.h
+[43.966s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/quality_factor__type_support.h
+[43.975s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/steering_cmd__functions.h
+[43.985s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/steering_cmd__struct.h
+[43.991s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/steering_cmd__type_support.h
+[43.998s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/steering_report__functions.h
+[44.007s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/steering_report__struct.h
+[44.017s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/steering_report__type_support.h
+[44.023s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/surround_report__functions.h
+[44.034s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/surround_report__struct.h
+[44.040s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/surround_report__type_support.h
+[44.049s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/throttle_cmd__functions.h
+[44.059s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/throttle_cmd__struct.h
+[44.067s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/throttle_cmd__type_support.h
+[44.075s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/throttle_info_report__functions.h
+[44.084s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/throttle_info_report__struct.h
+[44.092s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/throttle_info_report__type_support.h
+[44.101s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/throttle_report__functions.h
+[44.107s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/throttle_report__struct.h
+[44.116s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/throttle_report__type_support.h
+[44.124s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/tire_pressure_report__functions.h
+[44.130s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/tire_pressure_report__struct.h
+[44.136s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/tire_pressure_report__type_support.h
+[44.143s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/turn_signal__functions.h
+[44.149s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/turn_signal__struct.h
+[44.155s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/turn_signal__type_support.h
+[44.161s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/twist_cmd__functions.h
+[44.167s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/twist_cmd__struct.h
+[44.173s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/twist_cmd__type_support.h
+[44.179s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/watchdog_counter__functions.h
+[44.185s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/watchdog_counter__struct.h
+[44.192s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/watchdog_counter__type_support.h
+[44.198s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/wheel_position_report__functions.h
+[44.204s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/wheel_position_report__struct.h
+[44.210s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/wheel_position_report__type_support.h
+[44.217s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/wheel_speed_report__functions.h
+[44.224s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/wheel_speed_report__struct.h
+[44.232s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/wheel_speed_report__type_support.h
+[44.241s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/wiper__functions.h
+[44.247s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/wiper__struct.h
+[44.253s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/wiper__type_support.h
+[44.259s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/driver_assist_report.h
+[44.266s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/fuel_level_report.h
+[44.275s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/gear.h
+[44.283s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/gear_cmd.h
+[44.291s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/gear_num.h
+[44.300s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/gear_reject.h
+[44.306s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/gear_report.h
+[44.315s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/hill_start_assist.h
+[44.324s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/ignition.h
+[44.330s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/misc1_report.h
+[44.339s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/misc_cmd.h
+[44.348s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/one_pedal.h
+[44.355s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/parking_brake.h
+[44.363s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/parking_brake_cmd.h
+[44.372s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/quality_factor.h
+[44.378s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/rosidl_generator_c__visibility_control.h
+[44.387s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/steering_cmd.h
+[44.396s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/steering_report.h
+[44.406s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/surround_report.h
+[44.415s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/throttle_cmd.h
+[44.424s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/throttle_info_report.h
+[44.433s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/throttle_report.h
+[44.440s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/tire_pressure_report.h
+[44.448s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/turn_signal.h
+[44.458s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/twist_cmd.h
+[44.466s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/watchdog_counter.h
+[44.474s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/wheel_position_report.h
+[44.482s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/wheel_speed_report.h
+[44.488s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/wiper.h
+[44.495s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/environment/library_path.sh
+[44.505s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/environment/library_path.dsv
+[44.514s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/ambient_light__rosidl_typesupport_fastrtps_c.h
+[44.522s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/brake_cmd__rosidl_typesupport_fastrtps_c.h
+[44.531s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/brake_info_report__rosidl_typesupport_fastrtps_c.h
+[44.541s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/brake_report__rosidl_typesupport_fastrtps_c.h
+[44.547s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/driver_assist_report__rosidl_typesupport_fastrtps_c.h
+[44.556s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/fuel_level_report__rosidl_typesupport_fastrtps_c.h
+[44.562s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/gear__rosidl_typesupport_fastrtps_c.h
+[44.569s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/gear_cmd__rosidl_typesupport_fastrtps_c.h
+[44.575s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/gear_num__rosidl_typesupport_fastrtps_c.h
+[44.582s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/gear_reject__rosidl_typesupport_fastrtps_c.h
+[44.588s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/gear_report__rosidl_typesupport_fastrtps_c.h
+[44.595s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/hill_start_assist__rosidl_typesupport_fastrtps_c.h
+[44.601s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/ignition__rosidl_typesupport_fastrtps_c.h
+[44.610s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/misc1_report__rosidl_typesupport_fastrtps_c.h
+[44.618s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/misc_cmd__rosidl_typesupport_fastrtps_c.h
+[44.624s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/one_pedal__rosidl_typesupport_fastrtps_c.h
+[44.631s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/parking_brake__rosidl_typesupport_fastrtps_c.h
+[44.638s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/parking_brake_cmd__rosidl_typesupport_fastrtps_c.h
+[44.644s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/quality_factor__rosidl_typesupport_fastrtps_c.h
+[44.650s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/steering_cmd__rosidl_typesupport_fastrtps_c.h
+[44.656s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/steering_report__rosidl_typesupport_fastrtps_c.h
+[44.662s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/surround_report__rosidl_typesupport_fastrtps_c.h
+[44.668s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/throttle_cmd__rosidl_typesupport_fastrtps_c.h
+[44.674s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/throttle_info_report__rosidl_typesupport_fastrtps_c.h
+[44.680s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/throttle_report__rosidl_typesupport_fastrtps_c.h
+[44.689s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/tire_pressure_report__rosidl_typesupport_fastrtps_c.h
+[44.696s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/turn_signal__rosidl_typesupport_fastrtps_c.h
+[44.703s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/twist_cmd__rosidl_typesupport_fastrtps_c.h
+[44.710s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/watchdog_counter__rosidl_typesupport_fastrtps_c.h
+[44.717s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/wheel_position_report__rosidl_typesupport_fastrtps_c.h
+[44.724s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/wheel_speed_report__rosidl_typesupport_fastrtps_c.h
+[44.733s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/wiper__rosidl_typesupport_fastrtps_c.h
+[44.741s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[44.750s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/ambient_light__rosidl_typesupport_introspection_c.h
+[44.756s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/brake_cmd__rosidl_typesupport_introspection_c.h
+[44.763s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/brake_info_report__rosidl_typesupport_introspection_c.h
+[44.772s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/brake_report__rosidl_typesupport_introspection_c.h
+[44.778s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/driver_assist_report__rosidl_typesupport_introspection_c.h
+[44.784s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/fuel_level_report__rosidl_typesupport_introspection_c.h
+[44.790s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/gear__rosidl_typesupport_introspection_c.h
+[44.797s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/gear_cmd__rosidl_typesupport_introspection_c.h
+[44.806s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/gear_num__rosidl_typesupport_introspection_c.h
+[44.815s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/gear_reject__rosidl_typesupport_introspection_c.h
+[44.822s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/gear_report__rosidl_typesupport_introspection_c.h
+[44.828s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/hill_start_assist__rosidl_typesupport_introspection_c.h
+[44.836s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/ignition__rosidl_typesupport_introspection_c.h
+[44.845s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/misc1_report__rosidl_typesupport_introspection_c.h
+[44.851s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/misc_cmd__rosidl_typesupport_introspection_c.h
+[44.860s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/one_pedal__rosidl_typesupport_introspection_c.h
+[44.869s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/parking_brake__rosidl_typesupport_introspection_c.h
+[44.876s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/parking_brake_cmd__rosidl_typesupport_introspection_c.h
+[44.885s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/quality_factor__rosidl_typesupport_introspection_c.h
+[44.893s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/steering_cmd__rosidl_typesupport_introspection_c.h
+[44.903s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/steering_report__rosidl_typesupport_introspection_c.h
+[44.913s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/surround_report__rosidl_typesupport_introspection_c.h
+[44.923s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/throttle_cmd__rosidl_typesupport_introspection_c.h
+[44.929s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/throttle_info_report__rosidl_typesupport_introspection_c.h
+[44.940s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/throttle_report__rosidl_typesupport_introspection_c.h
+[44.947s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/tire_pressure_report__rosidl_typesupport_introspection_c.h
+[44.956s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/turn_signal__rosidl_typesupport_introspection_c.h
+[44.964s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/twist_cmd__rosidl_typesupport_introspection_c.h
+[44.973s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/watchdog_counter__rosidl_typesupport_introspection_c.h
+[44.984s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/wheel_position_report__rosidl_typesupport_introspection_c.h
+[44.994s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/wheel_speed_report__rosidl_typesupport_introspection_c.h
+[45.006s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/wiper__rosidl_typesupport_introspection_c.h
+[45.016s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[45.028s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/ambient_light.hpp
+[45.035s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/brake_cmd.hpp
+[45.042s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/brake_info_report.hpp
+[45.051s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/brake_report.hpp
+[45.062s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/ambient_light__builder.hpp
+[45.072s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/ambient_light__struct.hpp
+[45.084s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/ambient_light__traits.hpp
+[45.095s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/ambient_light__type_support.hpp
+[45.102s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/brake_cmd__builder.hpp
+[45.111s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/brake_cmd__struct.hpp
+[45.119s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/brake_cmd__traits.hpp
+[45.127s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/brake_cmd__type_support.hpp
+[45.135s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/brake_info_report__builder.hpp
+[45.145s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/brake_info_report__struct.hpp
+[45.155s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/brake_info_report__traits.hpp
+[45.163s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/brake_info_report__type_support.hpp
+[45.174s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/brake_report__builder.hpp
+[45.182s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/brake_report__struct.hpp
+[45.192s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/brake_report__traits.hpp
+[45.201s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/brake_report__type_support.hpp
+[45.208s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/driver_assist_report__builder.hpp
+[45.217s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/driver_assist_report__struct.hpp
+[45.226s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/driver_assist_report__traits.hpp
+[45.232s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/driver_assist_report__type_support.hpp
+[45.241s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/fuel_level_report__builder.hpp
+[45.250s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/fuel_level_report__struct.hpp
+[45.257s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/fuel_level_report__traits.hpp
+[45.265s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/fuel_level_report__type_support.hpp
+[45.274s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/gear__builder.hpp
+[45.281s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/gear__struct.hpp
+[45.289s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/gear__traits.hpp
+[45.298s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/gear__type_support.hpp
+[45.304s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/gear_cmd__builder.hpp
+[45.313s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/gear_cmd__struct.hpp
+[45.323s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/gear_cmd__traits.hpp
+[45.329s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/gear_cmd__type_support.hpp
+[45.337s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/gear_num__builder.hpp
+[45.346s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/gear_num__struct.hpp
+[45.353s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/gear_num__traits.hpp
+[45.361s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/gear_num__type_support.hpp
+[45.370s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/gear_reject__builder.hpp
+[45.377s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/gear_reject__struct.hpp
+[45.385s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/gear_reject__traits.hpp
+[45.394s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/gear_reject__type_support.hpp
+[45.402s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/gear_report__builder.hpp
+[45.411s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/gear_report__struct.hpp
+[45.420s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/gear_report__traits.hpp
+[45.429s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/gear_report__type_support.hpp
+[45.436s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/hill_start_assist__builder.hpp
+[45.442s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/hill_start_assist__struct.hpp
+[45.449s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/hill_start_assist__traits.hpp
+[45.458s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/hill_start_assist__type_support.hpp
+[45.468s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/ignition__builder.hpp
+[45.474s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/ignition__struct.hpp
+[45.482s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/ignition__traits.hpp
+[45.491s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/ignition__type_support.hpp
+[45.497s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/misc1_report__builder.hpp
+[45.505s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/misc1_report__struct.hpp
+[45.514s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/misc1_report__traits.hpp
+[45.521s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/misc1_report__type_support.hpp
+[45.527s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/misc_cmd__builder.hpp
+[45.533s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/misc_cmd__struct.hpp
+[45.541s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/misc_cmd__traits.hpp
+[45.547s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/misc_cmd__type_support.hpp
+[45.556s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/one_pedal__builder.hpp
+[45.565s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/one_pedal__struct.hpp
+[45.571s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/one_pedal__traits.hpp
+[45.579s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/one_pedal__type_support.hpp
+[45.585s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/parking_brake__builder.hpp
+[45.592s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/parking_brake__struct.hpp
+[45.598s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/parking_brake__traits.hpp
+[45.604s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/parking_brake__type_support.hpp
+[45.612s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/parking_brake_cmd__builder.hpp
+[45.621s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/parking_brake_cmd__struct.hpp
+[45.631s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/parking_brake_cmd__traits.hpp
+[45.640s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/parking_brake_cmd__type_support.hpp
+[45.647s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/quality_factor__builder.hpp
+[45.653s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/quality_factor__struct.hpp
+[45.662s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/quality_factor__traits.hpp
+[45.669s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/quality_factor__type_support.hpp
+[45.678s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/steering_cmd__builder.hpp
+[45.685s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/steering_cmd__struct.hpp
+[45.691s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/steering_cmd__traits.hpp
+[45.700s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/steering_cmd__type_support.hpp
+[45.708s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/steering_report__builder.hpp
+[45.717s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/steering_report__struct.hpp
+[45.724s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/steering_report__traits.hpp
+[45.732s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/steering_report__type_support.hpp
+[45.741s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/surround_report__builder.hpp
+[45.749s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/surround_report__struct.hpp
+[45.757s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/surround_report__traits.hpp
+[45.764s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/surround_report__type_support.hpp
+[45.772s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/throttle_cmd__builder.hpp
+[45.781s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/throttle_cmd__struct.hpp
+[45.791s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/throttle_cmd__traits.hpp
+[45.797s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/throttle_cmd__type_support.hpp
+[45.804s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/throttle_info_report__builder.hpp
+[45.812s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/throttle_info_report__struct.hpp
+[45.821s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/throttle_info_report__traits.hpp
+[45.830s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/throttle_info_report__type_support.hpp
+[45.839s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/throttle_report__builder.hpp
+[45.850s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/throttle_report__struct.hpp
+[45.861s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/throttle_report__traits.hpp
+[45.871s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/throttle_report__type_support.hpp
+[45.883s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/tire_pressure_report__builder.hpp
+[45.894s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/tire_pressure_report__struct.hpp
+[45.904s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/tire_pressure_report__traits.hpp
+[45.911s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/tire_pressure_report__type_support.hpp
+[45.921s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/turn_signal__builder.hpp
+[45.929s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/turn_signal__struct.hpp
+[45.939s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/turn_signal__traits.hpp
+[45.946s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/turn_signal__type_support.hpp
+[45.956s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/twist_cmd__builder.hpp
+[45.966s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/twist_cmd__struct.hpp
+[45.973s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/twist_cmd__traits.hpp
+[45.982s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/twist_cmd__type_support.hpp
+[45.992s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/watchdog_counter__builder.hpp
+[46.002s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/watchdog_counter__struct.hpp
+[46.008s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/watchdog_counter__traits.hpp
+[46.018s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/watchdog_counter__type_support.hpp
+[46.025s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/wheel_position_report__builder.hpp
+[46.032s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/wheel_position_report__struct.hpp
+[46.041s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/wheel_position_report__traits.hpp
+[46.048s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/wheel_position_report__type_support.hpp
+[46.055s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/wheel_speed_report__builder.hpp
+[46.061s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/wheel_speed_report__struct.hpp
+[46.068s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/wheel_speed_report__traits.hpp
+[46.077s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/wheel_speed_report__type_support.hpp
+[46.085s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/wiper__builder.hpp
+[46.092s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/wiper__struct.hpp
+[46.099s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/wiper__traits.hpp
+[46.106s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/wiper__type_support.hpp
+[46.115s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/driver_assist_report.hpp
+[46.123s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/fuel_level_report.hpp
+[46.129s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/gear.hpp
+[46.138s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/gear_cmd.hpp
+[46.146s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/gear_num.hpp
+[46.155s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/gear_reject.hpp
+[46.164s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/gear_report.hpp
+[46.173s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/hill_start_assist.hpp
+[46.181s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/ignition.hpp
+[46.188s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/misc1_report.hpp
+[46.195s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/misc_cmd.hpp
+[46.204s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/one_pedal.hpp
+[46.212s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/parking_brake.hpp
+[46.221s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/parking_brake_cmd.hpp
+[46.228s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/quality_factor.hpp
+[46.235s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[46.244s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/steering_cmd.hpp
+[46.253s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/steering_report.hpp
+[46.262s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/surround_report.hpp
+[46.271s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/throttle_cmd.hpp
+[46.280s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/throttle_info_report.hpp
+[46.290s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/throttle_report.hpp
+[46.298s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/tire_pressure_report.hpp
+[46.308s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/turn_signal.hpp
+[46.315s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/twist_cmd.hpp
+[46.323s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/watchdog_counter.hpp
+[46.333s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/wheel_position_report.hpp
+[46.341s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/wheel_speed_report.hpp
+[46.348s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/wiper.hpp
+[46.358s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/ambient_light__rosidl_typesupport_fastrtps_cpp.hpp
+[46.366s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/brake_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[46.373s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/brake_info_report__rosidl_typesupport_fastrtps_cpp.hpp
+[46.380s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/brake_report__rosidl_typesupport_fastrtps_cpp.hpp
+[46.386s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/driver_assist_report__rosidl_typesupport_fastrtps_cpp.hpp
+[46.392s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/fuel_level_report__rosidl_typesupport_fastrtps_cpp.hpp
+[46.398s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/gear__rosidl_typesupport_fastrtps_cpp.hpp
+[46.407s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/gear_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[46.413s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/gear_num__rosidl_typesupport_fastrtps_cpp.hpp
+[46.422s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/gear_reject__rosidl_typesupport_fastrtps_cpp.hpp
+[46.429s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/gear_report__rosidl_typesupport_fastrtps_cpp.hpp
+[46.436s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/hill_start_assist__rosidl_typesupport_fastrtps_cpp.hpp
+[46.445s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/ignition__rosidl_typesupport_fastrtps_cpp.hpp
+[46.452s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/misc1_report__rosidl_typesupport_fastrtps_cpp.hpp
+[46.459s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/misc_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[46.466s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/one_pedal__rosidl_typesupport_fastrtps_cpp.hpp
+[46.472s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/parking_brake__rosidl_typesupport_fastrtps_cpp.hpp
+[46.478s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/parking_brake_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[46.484s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/quality_factor__rosidl_typesupport_fastrtps_cpp.hpp
+[46.490s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/steering_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[46.497s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/steering_report__rosidl_typesupport_fastrtps_cpp.hpp
+[46.502s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/surround_report__rosidl_typesupport_fastrtps_cpp.hpp
+[46.508s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/throttle_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[46.515s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/throttle_info_report__rosidl_typesupport_fastrtps_cpp.hpp
+[46.521s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/throttle_report__rosidl_typesupport_fastrtps_cpp.hpp
+[46.527s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/tire_pressure_report__rosidl_typesupport_fastrtps_cpp.hpp
+[46.536s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/turn_signal__rosidl_typesupport_fastrtps_cpp.hpp
+[46.543s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/twist_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[46.550s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/watchdog_counter__rosidl_typesupport_fastrtps_cpp.hpp
+[46.556s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/wheel_position_report__rosidl_typesupport_fastrtps_cpp.hpp
+[46.563s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/wheel_speed_report__rosidl_typesupport_fastrtps_cpp.hpp
+[46.569s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/wiper__rosidl_typesupport_fastrtps_cpp.hpp
+[46.575s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[46.581s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/ambient_light__rosidl_typesupport_introspection_cpp.hpp
+[46.587s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/brake_cmd__rosidl_typesupport_introspection_cpp.hpp
+[46.593s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/brake_info_report__rosidl_typesupport_introspection_cpp.hpp
+[46.599s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/brake_report__rosidl_typesupport_introspection_cpp.hpp
+[46.605s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/driver_assist_report__rosidl_typesupport_introspection_cpp.hpp
+[46.612s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/fuel_level_report__rosidl_typesupport_introspection_cpp.hpp
+[46.620s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/gear__rosidl_typesupport_introspection_cpp.hpp
+[46.629s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/gear_cmd__rosidl_typesupport_introspection_cpp.hpp
+[46.635s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/gear_num__rosidl_typesupport_introspection_cpp.hpp
+[46.641s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/gear_reject__rosidl_typesupport_introspection_cpp.hpp
+[46.647s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/gear_report__rosidl_typesupport_introspection_cpp.hpp
+[46.653s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/hill_start_assist__rosidl_typesupport_introspection_cpp.hpp
+[46.659s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/ignition__rosidl_typesupport_introspection_cpp.hpp
+[46.665s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/misc1_report__rosidl_typesupport_introspection_cpp.hpp
+[46.671s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/misc_cmd__rosidl_typesupport_introspection_cpp.hpp
+[46.677s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/one_pedal__rosidl_typesupport_introspection_cpp.hpp
+[46.683s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/parking_brake__rosidl_typesupport_introspection_cpp.hpp
+[46.689s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/parking_brake_cmd__rosidl_typesupport_introspection_cpp.hpp
+[46.695s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/quality_factor__rosidl_typesupport_introspection_cpp.hpp
+[46.701s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/steering_cmd__rosidl_typesupport_introspection_cpp.hpp
+[46.708s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/steering_report__rosidl_typesupport_introspection_cpp.hpp
+[46.716s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/surround_report__rosidl_typesupport_introspection_cpp.hpp
+[46.724s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/throttle_cmd__rosidl_typesupport_introspection_cpp.hpp
+[46.731s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/throttle_info_report__rosidl_typesupport_introspection_cpp.hpp
+[46.736s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/throttle_report__rosidl_typesupport_introspection_cpp.hpp
+[46.743s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/tire_pressure_report__rosidl_typesupport_introspection_cpp.hpp
+[46.749s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/turn_signal__rosidl_typesupport_introspection_cpp.hpp
+[46.756s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/twist_cmd__rosidl_typesupport_introspection_cpp.hpp
+[46.762s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/watchdog_counter__rosidl_typesupport_introspection_cpp.hpp
+[46.768s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/wheel_position_report__rosidl_typesupport_introspection_cpp.hpp
+[46.776s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/wheel_speed_report__rosidl_typesupport_introspection_cpp.hpp
+[46.783s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/include/dbw_ford_msgs/dbw_ford_msgs/msg/detail/wiper__rosidl_typesupport_introspection_cpp.hpp
+[46.792s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/environment/pythonpath.sh
+[46.800s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/environment/pythonpath.dsv
+[46.809s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs-2.1.15-py3.12.egg-info/PKG-INFO
+[46.815s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs-2.1.15-py3.12.egg-info/SOURCES.txt
+[46.822s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs-2.1.15-py3.12.egg-info/dependency_links.txt
+[46.830s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs-2.1.15-py3.12.egg-info/top_level.txt
+[46.839s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/__init__.py
+[46.845s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/_dbw_ford_msgs_s.ep.rosidl_typesupport_c.c
+[46.851s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/_dbw_ford_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[46.860s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/_dbw_ford_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[46.868s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/dbw_ford_msgs_s__rosidl_typesupport_c.so
+[46.877s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/dbw_ford_msgs_s__rosidl_typesupport_fastrtps_c.so
+[46.883s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/dbw_ford_msgs_s__rosidl_typesupport_introspection_c.so
+[46.892s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/__init__.py
+[46.900s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_ambient_light.py
+[46.908s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_ambient_light_s.c
+[46.917s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_brake_cmd.py
+[46.926s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_brake_cmd_s.c
+[46.935s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_brake_info_report.py
+[46.943s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_brake_info_report_s.c
+[46.952s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_brake_report.py
+[46.959s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_brake_report_s.c
+[46.967s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_driver_assist_report.py
+[46.975s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_driver_assist_report_s.c
+[46.981s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_fuel_level_report.py
+[46.988s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_fuel_level_report_s.c
+[46.994s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_gear.py
+[47.000s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_gear_cmd.py
+[47.006s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_gear_cmd_s.c
+[47.015s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_gear_num.py
+[47.024s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_gear_num_s.c
+[47.031s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_gear_reject.py
+[47.037s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_gear_reject_s.c
+[47.043s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_gear_report.py
+[47.049s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_gear_report_s.c
+[47.055s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_gear_s.c
+[47.061s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_hill_start_assist.py
+[47.070s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_hill_start_assist_s.c
+[47.078s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_ignition.py
+[47.085s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_ignition_s.c
+[47.092s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_misc1_report.py
+[47.098s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_misc1_report_s.c
+[47.104s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_misc_cmd.py
+[47.113s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_misc_cmd_s.c
+[47.121s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_one_pedal.py
+[47.129s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_one_pedal_s.c
+[47.135s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_parking_brake.py
+[47.141s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_parking_brake_cmd.py
+[47.147s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_parking_brake_cmd_s.c
+[47.153s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_parking_brake_s.c
+[47.159s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_quality_factor.py
+[47.165s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_quality_factor_s.c
+[47.171s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_steering_cmd.py
+[47.177s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_steering_cmd_s.c
+[47.183s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_steering_report.py
+[47.189s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_steering_report_s.c
+[47.195s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_surround_report.py
+[47.201s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_surround_report_s.c
+[47.209s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_throttle_cmd.py
+[47.218s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_throttle_cmd_s.c
+[47.224s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_throttle_info_report.py
+[47.231s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_throttle_info_report_s.c
+[47.237s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_throttle_report.py
+[47.243s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_throttle_report_s.c
+[47.249s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_tire_pressure_report.py
+[47.255s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_tire_pressure_report_s.c
+[47.261s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_turn_signal.py
+[47.267s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_turn_signal_s.c
+[47.273s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_twist_cmd.py
+[47.279s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_twist_cmd_s.c
+[47.286s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_watchdog_counter.py
+[47.291s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_watchdog_counter_s.c
+[47.297s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_wheel_position_report.py
+[47.304s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_wheel_position_report_s.c
+[47.310s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_wheel_speed_report.py
+[47.318s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_wheel_speed_report_s.c
+[47.326s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_wiper.py
+[47.332s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_wiper_s.c
+[47.339s] -- Up-to-date symlink: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/dbw_ford_msgs_s__rosidl_typesupport_fastrtps_c.so
+[47.340s] -- Up-to-date symlink: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/dbw_ford_msgs_s__rosidl_typesupport_introspection_c.so
+[47.340s] -- Up-to-date symlink: /home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/dbw_ford_msgs_s__rosidl_typesupport_c.so
+[47.340s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/rust/Cargo.toml
+[47.346s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/rust/build.rs
+[47.352s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/rust/src/lib.rs
+[47.359s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/rust/src/msg.rs
+[47.367s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/rust/src/msg/rmw.rs
+[47.375s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/AmbientLight.idl
+[47.381s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/BrakeCmd.idl
+[47.387s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/BrakeInfoReport.idl
+[47.395s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/BrakeReport.idl
+[47.403s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/DriverAssistReport.idl
+[47.412s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/FuelLevelReport.idl
+[47.419s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/GearCmd.idl
+[47.426s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/Gear.idl
+[47.435s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/GearNum.idl
+[47.443s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/GearReject.idl
+[47.451s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/GearReport.idl
+[47.459s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/HillStartAssist.idl
+[47.466s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/Ignition.idl
+[47.474s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/MiscCmd.idl
+[47.483s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/Misc1Report.idl
+[47.491s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/OnePedal.idl
+[47.500s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/ParkingBrake.idl
+[47.509s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/ParkingBrakeCmd.idl
+[47.516s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/QualityFactor.idl
+[47.525s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/SteeringCmd.idl
+[47.532s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/SteeringReport.idl
+[47.541s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/SurroundReport.idl
+[47.550s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/ThrottleCmd.idl
+[47.557s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/ThrottleInfoReport.idl
+[47.566s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/ThrottleReport.idl
+[47.576s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/TirePressureReport.idl
+[47.585s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/TurnSignal.idl
+[47.594s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/TwistCmd.idl
+[47.601s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/WatchdogCounter.idl
+[47.609s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/WheelPositionReport.idl
+[47.617s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/WheelSpeedReport.idl
+[47.625s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/Wiper.idl
+[47.634s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/AmbientLight.msg
+[47.641s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/BrakeCmd.msg
+[47.649s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/BrakeInfoReport.msg
+[47.658s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/BrakeReport.msg
+[47.665s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/DriverAssistReport.msg
+[47.674s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/FuelLevelReport.msg
+[47.683s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/GearCmd.msg
+[47.690s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/Gear.msg
+[47.697s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/GearNum.msg
+[47.705s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/GearReject.msg
+[47.712s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/GearReport.msg
+[47.719s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/HillStartAssist.msg
+[47.727s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/Ignition.msg
+[47.734s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/MiscCmd.msg
+[47.742s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/Misc1Report.msg
+[47.749s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/OnePedal.msg
+[47.757s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/ParkingBrake.msg
+[47.763s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/ParkingBrakeCmd.msg
+[47.770s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/QualityFactor.msg
+[47.779s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/SteeringCmd.msg
+[47.784s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/SteeringReport.msg
+[47.792s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/SurroundReport.msg
+[47.799s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/ThrottleCmd.msg
+[47.806s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/ThrottleInfoReport.msg
+[47.812s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/ThrottleReport.msg
+[47.820s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/TirePressureReport.msg
+[47.829s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/TurnSignal.msg
+[47.835s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/TwistCmd.msg
+[47.843s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/WatchdogCounter.msg
+[47.850s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/WheelPositionReport.msg
+[47.857s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/WheelSpeedReport.msg
+[47.865s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/msg/Wiper.msg
+[47.873s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/mapping_rules.yaml
+[47.881s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/ament_index/resource_index/package_run_dependencies/dbw_ford_msgs
+[47.889s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/ament_index/resource_index/parent_prefix_path/dbw_ford_msgs
+[47.895s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/environment/ament_prefix_path.sh
+[47.903s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/environment/ament_prefix_path.dsv
+[47.911s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/environment/path.sh
+[47.919s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/environment/path.dsv
+[47.928s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/local_setup.bash
+[47.937s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/local_setup.sh
+[47.943s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/local_setup.zsh
+[47.952s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/local_setup.dsv
+[47.961s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/package.dsv
+[47.968s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/ament_index/resource_index/packages/dbw_ford_msgs
+[47.976s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/cmake/rosidl_cmake-extras.cmake
+[47.985s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[47.992s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[48.000s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[48.008s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[48.016s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[48.024s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[48.034s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[48.040s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/cmake/dbw_ford_msgsConfig.cmake
+[48.048s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/cmake/dbw_ford_msgsConfig-version.cmake
+[48.057s] -- Symlinking: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/package.xml
+[48.066s] -- Installing: /home/everett/StopV2/install/dbw_ford_msgs/lib/libdbw_ford_msgs__rosidl_generator_c.so
+[48.066s] -- Set non-toolchain portion of runtime path of "/home/everett/StopV2/install/dbw_ford_msgs/lib/libdbw_ford_msgs__rosidl_generator_c.so" to ""
+[48.066s] -- Installing: /home/everett/StopV2/install/dbw_ford_msgs/lib/libdbw_ford_msgs__rosidl_typesupport_fastrtps_c.so
+[48.067s] -- Set non-toolchain portion of runtime path of "/home/everett/StopV2/install/dbw_ford_msgs/lib/libdbw_ford_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[48.067s] -- Installing: /home/everett/StopV2/install/dbw_ford_msgs/lib/libdbw_ford_msgs__rosidl_typesupport_introspection_c.so
+[48.067s] -- Set non-toolchain portion of runtime path of "/home/everett/StopV2/install/dbw_ford_msgs/lib/libdbw_ford_msgs__rosidl_typesupport_introspection_c.so" to ""
+[48.067s] -- Installing: /home/everett/StopV2/install/dbw_ford_msgs/lib/libdbw_ford_msgs__rosidl_typesupport_c.so
+[48.068s] -- Set non-toolchain portion of runtime path of "/home/everett/StopV2/install/dbw_ford_msgs/lib/libdbw_ford_msgs__rosidl_typesupport_c.so" to ""
+[48.068s] -- Installing: /home/everett/StopV2/install/dbw_ford_msgs/lib/libdbw_ford_msgs__rosidl_typesupport_fastrtps_cpp.so
+[48.068s] -- Set non-toolchain portion of runtime path of "/home/everett/StopV2/install/dbw_ford_msgs/lib/libdbw_ford_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[48.069s] -- Installing: /home/everett/StopV2/install/dbw_ford_msgs/lib/libdbw_ford_msgs__rosidl_typesupport_introspection_cpp.so
+[48.069s] -- Set non-toolchain portion of runtime path of "/home/everett/StopV2/install/dbw_ford_msgs/lib/libdbw_ford_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[48.069s] -- Installing: /home/everett/StopV2/install/dbw_ford_msgs/lib/libdbw_ford_msgs__rosidl_typesupport_cpp.so
+[48.070s] -- Set non-toolchain portion of runtime path of "/home/everett/StopV2/install/dbw_ford_msgs/lib/libdbw_ford_msgs__rosidl_typesupport_cpp.so" to ""
+[48.137s] Listing '/home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs'...
+[48.137s] Compiling '/home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/__init__.py'...
+[48.137s] Listing '/home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg'...
+[48.137s] Compiling '/home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/__init__.py'...
+[48.137s] Compiling '/home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_ambient_light.py'...
+[48.138s] Compiling '/home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_brake_cmd.py'...
+[48.138s] Compiling '/home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_brake_info_report.py'...
+[48.138s] Compiling '/home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_brake_report.py'...
+[48.138s] Compiling '/home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_driver_assist_report.py'...
+[48.138s] Compiling '/home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_fuel_level_report.py'...
+[48.138s] Compiling '/home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_gear.py'...
+[48.138s] Compiling '/home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_gear_cmd.py'...
+[48.138s] Compiling '/home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_gear_num.py'...
+[48.138s] Compiling '/home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_gear_reject.py'...
+[48.138s] Compiling '/home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_gear_report.py'...
+[48.138s] Compiling '/home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_hill_start_assist.py'...
+[48.138s] Compiling '/home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_ignition.py'...
+[48.139s] Compiling '/home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_misc1_report.py'...
+[48.139s] Compiling '/home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_misc_cmd.py'...
+[48.139s] Compiling '/home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_one_pedal.py'...
+[48.139s] Compiling '/home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_parking_brake.py'...
+[48.139s] Compiling '/home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_parking_brake_cmd.py'...
+[48.139s] Compiling '/home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_quality_factor.py'...
+[48.139s] Compiling '/home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_steering_cmd.py'...
+[48.139s] Compiling '/home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_steering_report.py'...
+[48.139s] Compiling '/home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_surround_report.py'...
+[48.139s] Compiling '/home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_throttle_cmd.py'...
+[48.139s] Compiling '/home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_throttle_info_report.py'...
+[48.139s] Compiling '/home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_throttle_report.py'...
+[48.139s] Compiling '/home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_tire_pressure_report.py'...
+[48.140s] Compiling '/home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_turn_signal.py'...
+[48.140s] Compiling '/home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_twist_cmd.py'...
+[48.140s] Compiling '/home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_watchdog_counter.py'...
+[48.140s] Compiling '/home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_wheel_position_report.py'...
+[48.140s] Compiling '/home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_wheel_speed_report.py'...
+[48.140s] Compiling '/home/everett/StopV2/install/dbw_ford_msgs/lib/python3.12/site-packages/dbw_ford_msgs/msg/_wiper.py'...
+[48.141s] -- Installing: /home/everett/StopV2/install/dbw_ford_msgs/lib/libdbw_ford_msgs__rosidl_generator_py.so
+[48.142s] -- Set non-toolchain portion of runtime path of "/home/everett/StopV2/install/dbw_ford_msgs/lib/libdbw_ford_msgs__rosidl_generator_py.so" to ""
+[48.142s] -- Installing: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/cmake/export_dbw_ford_msgs__rosidl_generator_cExport.cmake
+[48.142s] -- Installing: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/cmake/export_dbw_ford_msgs__rosidl_generator_cExport-noconfig.cmake
+[48.143s] -- Installing: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/cmake/export_dbw_ford_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[48.143s] -- Installing: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/cmake/export_dbw_ford_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[48.143s] -- Installing: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/cmake/dbw_ford_msgs__rosidl_typesupport_introspection_cExport.cmake
+[48.143s] -- Installing: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/cmake/dbw_ford_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[48.143s] -- Installing: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/cmake/dbw_ford_msgs__rosidl_typesupport_cExport.cmake
+[48.143s] -- Installing: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/cmake/dbw_ford_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[48.143s] -- Installing: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/cmake/export_dbw_ford_msgs__rosidl_generator_cppExport.cmake
+[48.143s] -- Installing: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/cmake/export_dbw_ford_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[48.143s] -- Installing: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/cmake/export_dbw_ford_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[48.143s] -- Installing: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/cmake/dbw_ford_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[48.143s] -- Installing: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/cmake/dbw_ford_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[48.144s] -- Installing: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/cmake/dbw_ford_msgs__rosidl_typesupport_cppExport.cmake
+[48.144s] -- Installing: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/cmake/dbw_ford_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[48.144s] -- Installing: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/cmake/export_dbw_ford_msgs__rosidl_generator_pyExport.cmake
+[48.144s] -- Installing: /home/everett/StopV2/install/dbw_ford_msgs/share/dbw_ford_msgs/cmake/export_dbw_ford_msgs__rosidl_generator_pyExport-noconfig.cmake
+[48.145s] Invoked command in '/home/everett/StopV2/build/dbw_ford_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/everett/StopV2/build/dbw_ford_msgs
