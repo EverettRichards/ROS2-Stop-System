@@ -4,8 +4,8 @@
 
 #include <string.h>
 
-#include "dbw_ford_msgs/msg/detail/misc1_report__struct.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "dbw_ford_msgs/msg/detail/misc1_report__struct.h"
 #include "dbw_ford_msgs/msg/detail/misc1_report__functions.h"
 #include "dbw_ford_msgs/msg/detail/misc1_report__type_support.h"
 

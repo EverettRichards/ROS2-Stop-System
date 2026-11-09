@@ -23,11 +23,11 @@ dbw_ford_msgs__msg__Misc1Report__get_type_hash(
 #include <string.h>
 
 // Include directives for referenced types
+#include "dbw_ford_msgs/msg/detail/wiper__functions.h"
+#include "dbw_ford_msgs/msg/detail/turn_signal__functions.h"
+#include "std_msgs/msg/detail/header__functions.h"
 #include "builtin_interfaces/msg/detail/time__functions.h"
 #include "dbw_ford_msgs/msg/detail/ambient_light__functions.h"
-#include "dbw_ford_msgs/msg/detail/turn_signal__functions.h"
-#include "dbw_ford_msgs/msg/detail/wiper__functions.h"
-#include "std_msgs/msg/detail/header__functions.h"
 
 // Hashes for external referenced types
 #ifndef NDEBUG

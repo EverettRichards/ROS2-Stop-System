@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "dbw_ford_msgs/msg/detail/hill_start_assist__struct.h"
 #include "rosidl_typesupport_interface/macros.h"
-#include "dbw_ford_msgs/msg/detail/hill_start_assist__type_support.h"
 #include "dbw_ford_msgs/msg/detail/hill_start_assist__functions.h"
+#include "dbw_ford_msgs/msg/detail/hill_start_assist__type_support.h"
+#include "dbw_ford_msgs/msg/detail/hill_start_assist__struct.h"
 
 #ifdef __cplusplus
 extern "C"

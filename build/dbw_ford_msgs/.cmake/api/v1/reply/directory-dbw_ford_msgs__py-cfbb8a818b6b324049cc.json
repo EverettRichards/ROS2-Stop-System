@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "dbw_ford_msgs__py",
+		"source" : "/home/everett/ROS2-Stop-System/build/dbw_ford_msgs/dbw_ford_msgs__py"
+	}
+}

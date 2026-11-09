@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "dbw_ford_msgs/msg/detail/throttle_cmd__functions.h"
-#include "dbw_ford_msgs/msg/detail/throttle_cmd__type_support.h"
 #include "rosidl_typesupport_interface/macros.h"
 #include "dbw_ford_msgs/msg/detail/throttle_cmd__struct.h"
+#include "dbw_ford_msgs/msg/detail/throttle_cmd__type_support.h"
+#include "dbw_ford_msgs/msg/detail/throttle_cmd__functions.h"
 
 #ifdef __cplusplus
 extern "C"

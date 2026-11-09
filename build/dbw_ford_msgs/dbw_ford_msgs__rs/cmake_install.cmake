@@ -1,8 +1,8 @@
-# Install script for directory: /media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/build/dbw_ford_msgs/dbw_ford_msgs__rs
+# Install script for directory: /home/everett/ROS2-Stop-System/build/dbw_ford_msgs/dbw_ford_msgs__rs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install/dbw_ford_msgs")
+  set(CMAKE_INSTALL_PREFIX "/home/everett/ROS2-Stop-System/install/dbw_ford_msgs")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

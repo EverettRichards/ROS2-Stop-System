@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "dbw_ford_msgs/msg/detail/parking_brake__type_support.h"
-#include "dbw_ford_msgs/msg/detail/parking_brake__struct.h"
 #include "rosidl_typesupport_interface/macros.h"
 #include "dbw_ford_msgs/msg/detail/parking_brake__functions.h"
+#include "dbw_ford_msgs/msg/detail/parking_brake__type_support.h"
+#include "dbw_ford_msgs/msg/detail/parking_brake__struct.h"
 
 #ifdef __cplusplus
 extern "C"

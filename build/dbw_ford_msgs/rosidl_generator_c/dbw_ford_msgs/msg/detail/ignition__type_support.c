@@ -4,9 +4,9 @@
 
 #include <string.h>
 
-#include "dbw_ford_msgs/msg/detail/ignition__functions.h"
-#include "dbw_ford_msgs/msg/detail/ignition__struct.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "dbw_ford_msgs/msg/detail/ignition__struct.h"
+#include "dbw_ford_msgs/msg/detail/ignition__functions.h"
 #include "dbw_ford_msgs/msg/detail/ignition__type_support.h"
 
 #ifdef __cplusplus

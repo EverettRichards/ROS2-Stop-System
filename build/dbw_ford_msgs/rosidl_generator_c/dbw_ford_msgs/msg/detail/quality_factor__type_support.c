@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "dbw_ford_msgs/msg/detail/quality_factor__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
-#include "dbw_ford_msgs/msg/detail/quality_factor__struct.h"
 #include "dbw_ford_msgs/msg/detail/quality_factor__type_support.h"
+#include "dbw_ford_msgs/msg/detail/quality_factor__functions.h"
+#include "dbw_ford_msgs/msg/detail/quality_factor__struct.h"
 
 #ifdef __cplusplus
 extern "C"

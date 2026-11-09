@@ -4,9 +4,9 @@
 
 #include <string.h>
 
-#include "dbw_ford_msgs/msg/detail/gear_num__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
 #include "dbw_ford_msgs/msg/detail/gear_num__struct.h"
+#include "dbw_ford_msgs/msg/detail/gear_num__functions.h"
 #include "dbw_ford_msgs/msg/detail/gear_num__type_support.h"
 
 #ifdef __cplusplus

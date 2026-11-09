@@ -7,7 +7,7 @@
 # since a plain shell script can't determine its own path when being sourced
 # either use the provided COLCON_CURRENT_PREFIX
 # or fall back to the build time prefix (if it exists)
-_colcon_prefix_chain_sh_COLCON_CURRENT_PREFIX=/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/install
+_colcon_prefix_chain_sh_COLCON_CURRENT_PREFIX=/home/everett/ROS2-Stop-System/install
 if [ ! -z "$COLCON_CURRENT_PREFIX" ]; then
   _colcon_prefix_chain_sh_COLCON_CURRENT_PREFIX="$COLCON_CURRENT_PREFIX"
 elif [ ! -d "$_colcon_prefix_chain_sh_COLCON_CURRENT_PREFIX" ]; then

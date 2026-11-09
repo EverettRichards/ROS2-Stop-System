@@ -4,9 +4,9 @@
 
 #include <string.h>
 
-#include "dbw_ford_msgs/msg/detail/wheel_speed_report__type_support.h"
 #include "rosidl_typesupport_interface/macros.h"
 #include "dbw_ford_msgs/msg/detail/wheel_speed_report__struct.h"
+#include "dbw_ford_msgs/msg/detail/wheel_speed_report__type_support.h"
 #include "dbw_ford_msgs/msg/detail/wheel_speed_report__functions.h"
 
 #ifdef __cplusplus

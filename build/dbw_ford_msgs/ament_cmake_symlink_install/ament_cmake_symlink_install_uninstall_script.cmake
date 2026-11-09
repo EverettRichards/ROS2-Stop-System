@@ -1,7 +1,7 @@
 # generated from
 # ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_uninstall_script.cmake.in
 
-set(install_manifest "/media/everett/94ef12fa-b831-4645-ac0d-825885cd3317/home/infrasense/build/dbw_ford_msgs/symlink_install_manifest.txt")
+set(install_manifest "/home/everett/ROS2-Stop-System/build/dbw_ford_msgs/symlink_install_manifest.txt")
 if(NOT EXISTS "${install_manifest}")
   message(FATAL_ERROR "Cannot find symlink install manifest: ${install_manifest}")
 endif()

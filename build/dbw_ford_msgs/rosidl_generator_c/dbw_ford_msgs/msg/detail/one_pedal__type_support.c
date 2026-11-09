@@ -5,9 +5,9 @@
 #include <string.h>
 
 #include "rosidl_typesupport_interface/macros.h"
-#include "dbw_ford_msgs/msg/detail/one_pedal__struct.h"
-#include "dbw_ford_msgs/msg/detail/one_pedal__type_support.h"
 #include "dbw_ford_msgs/msg/detail/one_pedal__functions.h"
+#include "dbw_ford_msgs/msg/detail/one_pedal__type_support.h"
+#include "dbw_ford_msgs/msg/detail/one_pedal__struct.h"
 
 #ifdef __cplusplus
 extern "C"

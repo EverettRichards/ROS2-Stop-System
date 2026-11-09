@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "dbw_ford_msgs/msg/detail/watchdog_counter__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
-#include "dbw_ford_msgs/msg/detail/watchdog_counter__type_support.h"
 #include "dbw_ford_msgs/msg/detail/watchdog_counter__struct.h"
+#include "dbw_ford_msgs/msg/detail/watchdog_counter__functions.h"
+#include "dbw_ford_msgs/msg/detail/watchdog_counter__type_support.h"
 
 #ifdef __cplusplus
 extern "C"

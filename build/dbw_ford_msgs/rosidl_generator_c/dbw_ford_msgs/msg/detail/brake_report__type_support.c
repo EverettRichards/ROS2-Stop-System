@@ -4,9 +4,9 @@
 
 #include <string.h>
 
-#include "dbw_ford_msgs/msg/detail/brake_report__functions.h"
-#include "dbw_ford_msgs/msg/detail/brake_report__struct.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "dbw_ford_msgs/msg/detail/brake_report__struct.h"
+#include "dbw_ford_msgs/msg/detail/brake_report__functions.h"
 #include "dbw_ford_msgs/msg/detail/brake_report__type_support.h"
 
 #ifdef __cplusplus

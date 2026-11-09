@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "dbw_ford_msgs/msg/detail/gear__type_support.h"
 #include "rosidl_typesupport_interface/macros.h"
-#include "dbw_ford_msgs/msg/detail/gear__struct.h"
 #include "dbw_ford_msgs/msg/detail/gear__functions.h"
+#include "dbw_ford_msgs/msg/detail/gear__struct.h"
+#include "dbw_ford_msgs/msg/detail/gear__type_support.h"
 
 #ifdef __cplusplus
 extern "C"

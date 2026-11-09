@@ -23,10 +23,10 @@ dbw_ford_msgs__msg__GearReport__get_type_hash(
 #include <string.h>
 
 // Include directives for referenced types
-#include "builtin_interfaces/msg/detail/time__functions.h"
-#include "std_msgs/msg/detail/header__functions.h"
 #include "dbw_ford_msgs/msg/detail/gear_reject__functions.h"
 #include "dbw_ford_msgs/msg/detail/gear__functions.h"
+#include "builtin_interfaces/msg/detail/time__functions.h"
+#include "std_msgs/msg/detail/header__functions.h"
 
 // Hashes for external referenced types
 #ifndef NDEBUG

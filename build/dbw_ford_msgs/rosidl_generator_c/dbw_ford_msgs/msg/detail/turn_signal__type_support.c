@@ -4,9 +4,9 @@
 
 #include <string.h>
 
-#include "dbw_ford_msgs/msg/detail/turn_signal__functions.h"
-#include "dbw_ford_msgs/msg/detail/turn_signal__type_support.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "dbw_ford_msgs/msg/detail/turn_signal__type_support.h"
+#include "dbw_ford_msgs/msg/detail/turn_signal__functions.h"
 #include "dbw_ford_msgs/msg/detail/turn_signal__struct.h"
 
 #ifdef __cplusplus
