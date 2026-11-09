@@ -1,5 +1,10 @@
 from setuptools import find_packages, setup
 
+from infrasense_stop.ipi_constructor import (
+    FramingError,
+    LengthPrefixedDecoder,
+)
+
 package_name = 'infrasense_stop'
 
 setup(

@@ -74,63 +74,75 @@ def main():
     connection, address = server.accept()
     print(f"Connected to {address}")
 
-    buffer = b""
-    MAX_MESSAGE_BYTES = 8192
+    decoder = LengthPrefixedDecoder(max_body_bytes=65_536)
 
-    while True:
-        chunk = connection.recv(1024)
-        received_ns = time.monotonic_ns()
+    try:
+        while True:
+            chunk = connection.recv(4096)
+            received_ns = time.monotonic_ns()
 
-        if not chunk:
-            if buffer:
-                node.get_logger().warn("Connection closed with incomplete JSON.")
-            break
+            if not chunk:
+                decoder.finish()  # Reports a truncated header/body, if present.
+                node.get_logger().info("TCP client closed cleanly.")
+                break
 
-        buffer += chunk
+            for frame in decoder.feed(chunk, received_ns):
+                try:
+                    message = json.loads(frame.payload.decode("utf-8"))
+                except (
+                    UnicodeDecodeError,
+                    json.JSONDecodeError,
+                    RecursionError,
+                ) as exc:
+                    node.get_logger().warn(
+                        f"Discarding invalid JSON frame: {exc}"
+                    )
+                    continue
 
-        while b"\n" in buffer:
-            raw_message, buffer = buffer.split(b"\n", 1)
+                if not isinstance(message, dict):
+                    node.get_logger().warn(
+                        "Discarding JSON that is not an object."
+                    )
+                    continue
 
-            if not raw_message.strip():
-                continue
+                # TIM and other messages do not trigger this handler.
+                if message.get("messageType") != "EMERGENCY_STOP":
+                    continue
 
-            if len(raw_message) > MAX_MESSAGE_BYTES:
-                node.get_logger().warn("Message too large.")
-                continue
+                payload = message.get("payload")
+                command_id = (
+                    payload.get("commandId", "(missing)")
+                    if isinstance(payload, dict)
+                    else "(missing)"
+                )
 
-            try:
-                message = raw_message.decode("utf-8")
-            except UnicodeDecodeError:
-                node.get_logger().warn("Invalid UTF-8 message.")
-                continue
+                timestamp_msg = Int64()
+                timestamp_msg.data = frame.completed_recv_ns
 
-            if isStopMessage(message):
                 stop_msg = Bool()
                 stop_msg.data = True
 
-                timestamp_msg = Int64()
-                timestamp_msg.data = received_ns
-
                 timestamp_pub.publish(timestamp_msg)
+                publisher.publish(stop_msg)
+
                 node.get_logger().info(
-                    f"Stop received at T1 = {received_ns} ns"
+                    f"EMERGENCY_STOP commandId={command_id} "
+                    f"parsed and published; "
+                    f"T1={frame.completed_recv_ns} ns"
                 )
 
-                publisher.publish(stop_msg)
-                node.get_logger().info("Published test stop request.")
+    except (FramingError, OSError) as exc:
+        node.get_logger().error(f"Ending TCP connection: {exc}")
 
-        if len(buffer) > MAX_MESSAGE_BYTES:
-            node.get_logger().error("Incomplete message exceeded size limit.")
-            break
+    finally:
+        # Close server connection
+        connection.close()
+        server.close()
 
-    # Close server connection
-    connection.close()
-    server.close()
-
-    # Shut down ROS2.
-    # Kill! Kill! Kill!
-    node.destroy_node()
-    rclpy.shutdown()
+        # Shut down ROS2.
+        # Kill! Kill! Kill!
+        node.destroy_node()
+        rclpy.shutdown()
 
 if __name__ == '__main__':
     main()
