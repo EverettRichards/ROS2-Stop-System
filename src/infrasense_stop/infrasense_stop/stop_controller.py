@@ -1,4 +1,5 @@
 import time
+import sys
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import Bool
@@ -9,10 +10,19 @@ class StopController(Node):
     def __init__(self):
         super().__init__('stop_controller')
 
-        self.stop_latched = False
+
+        latch_flag = sys.argv[1] if len(sys.argv) > 1 else False
+        if latch_flag and (latch_flag == "--always-on" or latch_flag == "--a"):
+            self.stop_latched = True
+        else:
+            self.stop_latched = False
+
+
         self.stop_request_time_ns = None
 
-        self.command_timer = self.create_timer(0.1, self.command_timer_callback)
+        self.OUTPUT_FREQUENCY = 50
+
+        self.command_timer = self.create_timer(1/self.OUTPUT_FREQUENCY, self.command_timer_callback)
 
         self.subscription = self.create_subscription(
             Bool,
@@ -60,7 +70,7 @@ class StopController(Node):
         throttle = ThrottleCmd()
 
         brake.pedal_cmd_type = BrakeCmd.CMD_PERCENT
-        brake.pedal_cmd = 0.40
+        brake.pedal_cmd = 0.5
         brake.enable = True
         brake.clear = False
         brake.ignore = False
@@ -74,7 +84,7 @@ class StopController(Node):
         self.brake_pub.publish(brake)
         self.throttle_pub.publish(throttle)
 
-        self.get_logger().info("Published non-actuating DBW test messages.")
+        self.get_logger().info("Published")
 
 def main(args=None):
     rclpy.init(args=args)

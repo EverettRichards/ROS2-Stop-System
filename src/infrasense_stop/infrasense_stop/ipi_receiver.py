@@ -75,7 +75,7 @@ def main():
     print(f"Connected to {address}")
 
     buffer = b""
-    MAX_MESSAGE_BYTES = 8192
+    MAX_MESSAGE_BYTES = 8192*2*2*2*2
 
     while True:
         chunk = connection.recv(1024)
@@ -87,6 +87,8 @@ def main():
             break
 
         buffer += chunk
+
+        node.get_logger().info(f"Received chunk: {chunk}")
 
         while b"\n" in buffer:
             raw_message, buffer = buffer.split(b"\n", 1)
