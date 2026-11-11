@@ -14,6 +14,11 @@ from rclpy.qos import (
     HistoryPolicy
 )
 
+from infrasense_stop.ipi_constructor import (
+	FramingError,
+	LengthPrefixedDecoder
+)
+
 stop_qos = QoSProfile(
     history=HistoryPolicy.KEEP_LAST,
     depth=1,
@@ -36,12 +41,20 @@ def isStopMessage(msg):
         if not "messageType" in data:
             print("Error: no messageType provided.")
             return False
+
+        if not "payload" in data:
+            print("Error: no payload present.")
+            return False
+
+        if not "issuedAtMs" in data["payload"]:
+            print("Error: payload missing `issuedAtMs` field.")
         
-        if data["messageType"] == "EMERGENCY_STOP":
-            return True
-        else:
+        if data["messageType"] != "EMERGENCY_STOP":
             print(f"Error: messageType is *not* 'EMERGENCY_STOP': {data['messageType']}")
             return False
+
+        return True
+
 
     except Exception as e:
         print(f"Error parsing JSON: {str(e)}")
@@ -80,6 +93,7 @@ def main():
         while True:
             chunk = connection.recv(4096)
             received_ns = time.monotonic_ns()
+            received_systime_ns = time.time_ns()
 
             if not chunk:
                 decoder.finish()  # Reports a truncated header/body, if present.
@@ -116,6 +130,8 @@ def main():
                     else "(missing)"
                 )
 
+                origin_timestamp_ms = payload.get("issuedAtMs",0)
+
                 timestamp_msg = Int64()
                 timestamp_msg.data = frame.completed_recv_ns
 
@@ -127,8 +143,11 @@ def main():
 
                 node.get_logger().info(
                     f"EMERGENCY_STOP commandId={command_id} "
-                    f"parsed and published; "
-                    f"T1={frame.completed_recv_ns} ns"
+                    f"parsed and published; \n"
+                    f"T0={origin_timestamp_ms:.2f} ms \n"
+                    f"T1_system={received_systime_ns / 1_000_000:.2f} ms \n"
+                    f"T1-T0 system: {(received_systime_ns - origin_timestamp_ms*1_000_000)/1_000_000:.2f} ms"
+                    f"T1_monotonic={received_ns / 1_000_000:.2f} ms"
                 )
 
     except (FramingError, OSError) as exc:

@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from dbw_ford_msgs/msg/FuelLevelReport.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module dbw_ford_msgs {
+  module msg {
+    struct FuelLevelReport {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Fuel level (%, 0 to 100)")
+      float fuel_level;
+
+      @verbatim (language="comment", text=
+        "12V battery voltage")
+      float battery_12v;
+
+      @verbatim (language="comment", text=
+        "Hybrid battery voltage")
+      float battery_hev;
+
+      @verbatim (language="comment", text=
+        "Odometer (km, 0.1km resolution)")
+      float odometer;
+    };
+  };
+};

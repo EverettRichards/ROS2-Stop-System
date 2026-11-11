@@ -89,17 +89,18 @@ class StopMonitor(Node):
             return
 
         # if you already requested to stop, don't double-count it!
-        if self.stop_request_time_ns is not None:
-            self.get_logger().warn("Stop request ignored: A stop request is already being processed.")
-            return
+        
+        #if self.stop_request_time_ns is not None:
+            #self.get_logger().warn("Stop request ignored: A stop request is already being processed.")
+            #return
 
         # Make sure the vehicle was already moving to begin with
-        if (
-            self.latest_speed_mps is None
-            or self.latest_speed_mps < self.stop_velocity_threshold
-        ):
-            self.get_logger().warn("Stop request ignored: Vehicle is not yet moving.")
-            return
+        #if (
+        #    self.latest_speed_mps is None
+        #    or self.latest_speed_mps < self.stop_velocity_threshold
+        #):
+        #    self.get_logger().warn("Stop request ignored: Vehicle is not yet moving.")
+        #    return
 
         # Record the time at which the stop request was received
         self.stop_request_time_ns = time.monotonic_ns()
@@ -107,14 +108,17 @@ class StopMonitor(Node):
         # log the fact that the stop request was duly received
         self.get_logger().warn(
             f"Stop request detected. "
-            f"Current speed: {self.latest_speed_mps} m/s."
+            f"Current speed: {self.latest_speed_mps} m/s.\n"
+            f"T1_monotonic: {self.t1_ns} ns\n"
+            f"T2_monotonic: {self.stop_request_time_ns} ns\n"
+            f"Delta: {(self.stop_request_time_ns - self.t1_ns)/1_000_000} ms"
         )
 
     def timestamp_callback(self, msg):
-        if self.t1_ns is None:
-            self.t1_ns = msg.data
-            self.get_logger().info("Received vehicle T1 timestamp.")
-            self.report_result()
+        #if self.t1_ns is None:
+        self.t1_ns = msg.data
+        self.get_logger().info("Received vehicle T1 timestamp.")
+        self.report_result()
 
     def report_result(self):
         if self.result_logged:
@@ -136,6 +140,8 @@ class StopMonitor(Node):
 def main(args=None):
     rclpy.init(args=args)
     monitor = StopMonitor()
+    
+    print("Running Stop Monitor...")
 
     rclpy.spin(monitor)
 

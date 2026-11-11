@@ -1,0 +1,38 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from dbw_ford_msgs/msg/GearReject.msg
+// generated code does not contain a copyright notice
+
+
+module dbw_ford_msgs {
+  module msg {
+    module GearReject_Constants {
+      @verbatim (language="comment", text=
+        "Not rejected")
+      const uint8 NONE = 0;
+      @verbatim (language="comment", text=
+        "Shift in progress")
+      const uint8 SHIFT_IN_PROGRESS = 1;
+      @verbatim (language="comment", text=
+        "Override on brake, throttle, or steering")
+      const uint8 OVERRIDE = 2;
+      @verbatim (language="comment", text=
+        "Rotary shifter can't shift to Low")
+      const uint8 ROTARY_LOW = 3;
+      @verbatim (language="comment", text=
+        "Rotary shifter can't shift out of Park")
+      const uint8 ROTARY_PARK = 4;
+      @verbatim (language="comment", text=
+        "Rejected by vehicle (try pressing the brakes)")
+      const uint8 VEHICLE = 5;
+      @verbatim (language="comment", text=
+        "Unsupported gear command")
+      const uint8 UNSUPPORTED = 6;
+      @verbatim (language="comment", text=
+        "System in fault state")
+      const uint8 FAULT = 7;
+    };
+    struct GearReject {
+      uint8 value;
+    };
+  };
+};

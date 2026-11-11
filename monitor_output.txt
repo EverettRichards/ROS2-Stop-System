@@ -1,0 +1,492 @@
+hydrau@hydrau:~/Desktop/infrasense$ ros2 run infrasense_stop stop_monitor
+Running Stop Monitor...
+[INFO] [1794437290.568298760] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437290.569251711] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1204679169604 ns
+T2_monotonic: 1204699640329 ns
+Delta: 20.470725 ms
+[INFO] [1794437291.574364025] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437291.575375993] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1205704135528 ns
+T2_monotonic: 1205705694750 ns
+Delta: 1.559222 ms
+[INFO] [1794437292.598326781] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437292.599501813] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1206727898503 ns
+T2_monotonic: 1206729685311 ns
+Delta: 1.786808 ms
+[INFO] [1794437293.826591256] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437293.828017863] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1207956135689 ns
+T2_monotonic: 1207958048426 ns
+Delta: 1.912737 ms
+[INFO] [1794437294.851546012] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437294.853436530] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1208980725162 ns
+T2_monotonic: 1208983157261 ns
+Delta: 2.432099 ms
+[INFO] [1794437295.874128949] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437295.876051834] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1210003340469 ns
+T2_monotonic: 1210005756299 ns
+Delta: 2.41583 ms
+[INFO] [1794437296.898254212] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437296.900184613] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1211027332545 ns
+T2_monotonic: 1211029866911 ns
+Delta: 2.534366 ms
+[INFO] [1794437298.127220428] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437298.129077788] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1212256386872 ns
+T2_monotonic: 1212258804237 ns
+Delta: 2.417365 ms
+[INFO] [1794437299.065463295] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437299.067391285] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1213194732295 ns
+T2_monotonic: 1213197076415 ns
+Delta: 2.34412 ms
+[INFO] [1794437594.475397477] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437594.477408805] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1508604300530 ns
+T2_monotonic: 1508607102549 ns
+Delta: 2.802019 ms
+[INFO] [1794437595.502782561] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437595.504695720] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1509631905671 ns
+T2_monotonic: 1509634395720 ns
+Delta: 2.490049 ms
+[INFO] [1794437596.526604702] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437596.528512711] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1510655728220 ns
+T2_monotonic: 1510658229802 ns
+Delta: 2.501582 ms
+[INFO] [1794437597.546737110] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437597.548652293] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1511675972668 ns
+T2_monotonic: 1511678353560 ns
+Delta: 2.380892 ms
+[INFO] [1794437598.570814980] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437598.572730146] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1512699949637 ns
+T2_monotonic: 1512702431192 ns
+Delta: 2.481555 ms
+[INFO] [1794437599.594758266] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437599.596670255] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1513723872796 ns
+T2_monotonic: 1513726383555 ns
+Delta: 2.510759 ms
+[INFO] [1794437600.619312882] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437600.621467523] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1514748083821 ns
+T2_monotonic: 1514751084188 ns
+Delta: 3.000367 ms
+[INFO] [1794437601.847770839] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437601.849784284] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1515976824120 ns
+T2_monotonic: 1515979483857 ns
+Delta: 2.659737 ms
+[INFO] [1794437602.874194917] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437602.876105676] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1517003320027 ns
+T2_monotonic: 1517005793546 ns
+Delta: 2.473519 ms
+[INFO] [1794437603.896357968] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437603.898450839] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1518025158272 ns
+T2_monotonic: 1518028132378 ns
+Delta: 2.974106 ms
+[INFO] [1794437604.923511764] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437604.925480635] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1519052351995 ns
+T2_monotonic: 1519055194868 ns
+Delta: 2.842873 ms
+[INFO] [1794437609.220943469] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437609.222926781] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1523349790893 ns
+T2_monotonic: 1523352636514 ns
+Delta: 2.845621 ms
+[INFO] [1794437610.449482142] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437610.451401873] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1524578657007 ns
+T2_monotonic: 1524581097695 ns
+Delta: 2.440688 ms
+[INFO] [1794437613.934548189] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437613.936551028] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1528063296063 ns
+T2_monotonic: 1528066256611 ns
+Delta: 2.960548 ms
+[INFO] [1794437615.096753178] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437615.098713469] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1529225930488 ns
+T2_monotonic: 1529228403335 ns
+Delta: 2.472847 ms
+[INFO] [1794437616.186529612] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437616.188482100] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1530315693895 ns
+T2_monotonic: 1530318181356 ns
+Delta: 2.487461 ms
+[INFO] [1794437617.209296838] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437617.211201484] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1531338338708 ns
+T2_monotonic: 1531340897563 ns
+Delta: 2.558855 ms
+[INFO] [1794437618.443379216] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437618.445374365] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1532572397143 ns
+T2_monotonic: 1532575055613 ns
+Delta: 2.65847 ms
+[INFO] [1794437619.459304507] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437619.461237374] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1533588378231 ns
+T2_monotonic: 1533590918173 ns
+Delta: 2.539942 ms
+[INFO] [1794437622.330629591] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437622.332535322] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1536459757677 ns
+T2_monotonic: 1536462255344 ns
+Delta: 2.497667 ms
+[INFO] [1794437627.859888346] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437627.861808951] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1541988994268 ns
+T2_monotonic: 1541991515650 ns
+Delta: 2.521382 ms
+[INFO] [1794437628.882882805] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437628.884838506] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1543011923471 ns
+T2_monotonic: 1543014546182 ns
+Delta: 2.622711 ms
+[INFO] [1794437629.905783936] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437629.907697424] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1544034997242 ns
+T2_monotonic: 1544037408093 ns
+Delta: 2.410851 ms
+[INFO] [1794437630.939156196] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437630.941047680] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1545068297262 ns
+T2_monotonic: 1545070761416 ns
+Delta: 2.464154 ms
+[INFO] [1794437631.955081637] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437631.956987475] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1546084239579 ns
+T2_monotonic: 1546086698196 ns
+Delta: 2.458617 ms
+[INFO] [1794437633.083160581] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437633.085126991] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1547212191254 ns
+T2_monotonic: 1547214802688 ns
+Delta: 2.611434 ms
+[INFO] [1794437634.211569005] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437634.213923667] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1548340622591 ns
+T2_monotonic: 1548343201802 ns
+Delta: 2.579211 ms
+[INFO] [1794437649.154282060] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437649.156305571] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1563283131144 ns
+T2_monotonic: 1563285977059 ns
+Delta: 2.845915 ms
+[INFO] [1794437650.387831120] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437650.389724102] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1564516963554 ns
+T2_monotonic: 1564519445647 ns
+Delta: 2.482093 ms
+[INFO] [1794437651.410610296] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437651.412789035] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1565539704723 ns
+T2_monotonic: 1565542233816 ns
+Delta: 2.529093 ms
+[INFO] [1794437655.506520426] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437655.508503400] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1569635496012 ns
+T2_monotonic: 1569638212961 ns
+Delta: 2.716949 ms
+[INFO] [1794437656.739068421] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437656.741034825] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1570868155024 ns
+T2_monotonic: 1570870733369 ns
+Delta: 2.578345 ms
+[INFO] [1794437660.832821837] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437660.834846663] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1574962032173 ns
+T2_monotonic: 1574964476205 ns
+Delta: 2.444032 ms
+[INFO] [1794437662.071077764] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437662.072994151] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1576200378082 ns
+T2_monotonic: 1576202710476 ns
+Delta: 2.332394 ms
+[INFO] [1794437663.087419586] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437663.089323509] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1577216769181 ns
+T2_monotonic: 1577219038167 ns
+Delta: 2.268986 ms
+[INFO] [1794437667.180539595] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437667.182583414] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1581309535555 ns
+T2_monotonic: 1581312277245 ns
+Delta: 2.74169 ms
+[INFO] [1794437672.511446641] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437672.513865406] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1586640381282 ns
+T2_monotonic: 1586643143453 ns
+Delta: 2.762171 ms
+[INFO] [1794437674.552080317] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437674.554096717] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1588681034119 ns
+T2_monotonic: 1588683768433 ns
+Delta: 2.734314 ms
+[INFO] [1794437675.780229304] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437675.782144548] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1589909355844 ns
+T2_monotonic: 1589911830684 ns
+Delta: 2.47484 ms
+[INFO] [1794437676.804025256] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437676.805941186] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1590933174619 ns
+T2_monotonic: 1590935645007 ns
+Delta: 2.470388 ms
+[INFO] [1794437677.831478845] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437677.833388099] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1591960569554 ns
+T2_monotonic: 1591963101240 ns
+Delta: 2.531686 ms
+[INFO] [1794437678.858678023] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437678.860573066] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1592987696616 ns
+T2_monotonic: 1592990283927 ns
+Delta: 2.587311 ms
+[INFO] [1794437679.879501064] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437679.881422151] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1594008594006 ns
+T2_monotonic: 1594011131701 ns
+Delta: 2.537695 ms
+[INFO] [1794437680.902168438] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437680.904061342] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1595031281871 ns
+T2_monotonic: 1595033775266 ns
+Delta: 2.493395 ms
+[INFO] [1794437681.928917864] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437681.930829462] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1596058092205 ns
+T2_monotonic: 1596060537032 ns
+Delta: 2.444827 ms
+[INFO] [1794437683.071239229] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437683.073113396] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1597200407870 ns
+T2_monotonic: 1597202827050 ns
+Delta: 2.41918 ms
+[INFO] [1794437688.278894894] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437688.280933578] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1602407773007 ns
+T2_monotonic: 1602410611347 ns
+Delta: 2.83834 ms
+[INFO] [1794437693.603460843] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437693.605450033] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1607732446985 ns
+T2_monotonic: 1607735163430 ns
+Delta: 2.716445 ms
+[INFO] [1794437704.249734523] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437704.251775924] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1618378684014 ns
+T2_monotonic: 1618381465837 ns
+Delta: 2.781823 ms
+[INFO] [1794437707.533192418] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437707.535141167] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1621662372667 ns
+T2_monotonic: 1621664827929 ns
+Delta: 2.455262 ms
+[INFO] [1794437709.779651156] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437709.781552751] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1623908958402 ns
+T2_monotonic: 1623911274771 ns
+Delta: 2.316369 ms
+[INFO] [1794437710.803633129] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437710.805532477] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1624932955043 ns
+T2_monotonic: 1624935255531 ns
+Delta: 2.300488 ms
+[INFO] [1794437712.240829305] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437712.242790958] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1626369962386 ns
+T2_monotonic: 1626372492617 ns
+Delta: 2.530231 ms
+[INFO] [1794437713.261406802] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437713.263365052] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1627390580891 ns
+T2_monotonic: 1627393071894 ns
+Delta: 2.491003 ms
+[INFO] [1794437717.561293116] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437717.563286957] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1631690297691 ns
+T2_monotonic: 1631692969342 ns
+Delta: 2.671651 ms
+[INFO] [1794437758.112638816] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437758.115026584] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1672240886983 ns
+T2_monotonic: 1672244393821 ns
+Delta: 3.506838 ms
+[INFO] [1794437762.414912124] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437762.417016629] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1676543617303 ns
+T2_monotonic: 1676546650235 ns
+Delta: 3.032932 ms
+[INFO] [1794437763.437378327] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437763.439259863] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1677566768064 ns
+T2_monotonic: 1677568962921 ns
+Delta: 2.194857 ms
+[INFO] [1794437767.942839296] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437767.944837688] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1682071907698 ns
+T2_monotonic: 1682074518499 ns
+Delta: 2.610801 ms
+[INFO] [1794437769.377045563] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437769.378969516] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1683506401425 ns
+T2_monotonic: 1683508665574 ns
+Delta: 2.264149 ms
+[INFO] [1794437773.676660273] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437773.678612311] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1687805861489 ns
+T2_monotonic: 1687808311040 ns
+Delta: 2.449551 ms
+[INFO] [1794437774.705813990] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437774.707723750] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1688835197647 ns
+T2_monotonic: 1688837433076 ns
+Delta: 2.235429 ms
+[INFO] [1794437779.004298537] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437779.006301053] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1693133277386 ns
+T2_monotonic: 1693135980424 ns
+Delta: 2.703038 ms
+[INFO] [1794437781.050145275] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437781.052119314] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1695179334530 ns
+T2_monotonic: 1695181787208 ns
+Delta: 2.452678 ms
+[INFO] [1794437782.073325487] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437782.075211379] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1696202637098 ns
+T2_monotonic: 1696204920321 ns
+Delta: 2.283223 ms
+[INFO] [1794437787.398635560] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437787.400608815] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1701527712482 ns
+T2_monotonic: 1701530318870 ns
+Delta: 2.606388 ms
+[INFO] [1794437825.095224882] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437825.097258453] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1739224166994 ns
+T2_monotonic: 1739226927980 ns
+Delta: 2.760986 ms
+[INFO] [1794437826.109404258] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437826.111353357] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1740238630180 ns
+T2_monotonic: 1740241051014 ns
+Delta: 2.420834 ms
+[INFO] [1794437827.130187474] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437827.132051134] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1741259582057 ns
+T2_monotonic: 1741261773862 ns
+Delta: 2.191805 ms
+[INFO] [1794437828.156995007] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437828.158992635] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1742285985307 ns
+T2_monotonic: 1742288698350 ns
+Delta: 2.713043 ms
+[INFO] [1794437829.178284062] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437829.180181964] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1743307389260 ns
+T2_monotonic: 1743309888563 ns
+Delta: 2.499303 ms
+[INFO] [1794437830.221368541] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437830.223252400] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1744350409131 ns
+T2_monotonic: 1744352958042 ns
+Delta: 2.548911 ms
+[INFO] [1794437832.458254026] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437832.460243346] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1746587338187 ns
+T2_monotonic: 1746589931161 ns
+Delta: 2.592974 ms
+[INFO] [1794437833.482640964] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437833.484553721] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1747611748156 ns
+T2_monotonic: 1747614262821 ns
+Delta: 2.514665 ms
+[INFO] [1794437834.507672734] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437834.509581511] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1748636826984 ns
+T2_monotonic: 1748639285265 ns
+Delta: 2.458281 ms
+[INFO] [1794437835.529305669] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437835.531206247] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1749658474781 ns
+T2_monotonic: 1749660900558 ns
+Delta: 2.425777 ms
+[INFO] [1794437836.761295512] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437836.763239535] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1750890388817 ns
+T2_monotonic: 1750892922466 ns
+Delta: 2.533649 ms
+[INFO] [1794437839.829915721] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437839.831878315] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1753959034301 ns
+T2_monotonic: 1753961576958 ns
+Delta: 2.542657 ms
+[INFO] [1794437841.878003846] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437841.879910952] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1756007381374 ns
+T2_monotonic: 1756009622781 ns
+Delta: 2.241407 ms
+[INFO] [1794437856.623219232] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437856.625231675] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1770752037629 ns
+T2_monotonic: 1770754895611 ns
+Delta: 2.857982 ms
+[WARN] [1794437858.672542359] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1770752037629 ns
+T2_monotonic: 1772802189738 ns
+Delta: 2050.152109 ms
+[INFO] [1794437858.673853228] [stop_monitor]: Received vehicle T1 timestamp.
+[INFO] [1794437862.152185184] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437862.154150161] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1776281202252 ns
+T2_monotonic: 1776283837482 ns
+Delta: 2.63523 ms
+[INFO] [1794437864.200409011] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437864.202386255] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1778329431517 ns
+T2_monotonic: 1778332092378 ns
+Delta: 2.660861 ms
+[INFO] [1794437865.428835870] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437865.430766483] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1779558177999 ns
+T2_monotonic: 1779560466476 ns
+Delta: 2.288477 ms
+[INFO] [1794437866.452398684] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437866.454286242] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1780581723212 ns
+T2_monotonic: 1780583997607 ns
+Delta: 2.274395 ms
+[INFO] [1794437868.500895940] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437868.502814481] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1782630075672 ns
+T2_monotonic: 1782632553958 ns
+Delta: 2.478286 ms
+[INFO] [1794437869.524753324] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437869.526689342] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1783653938393 ns
+T2_monotonic: 1783656409186 ns
+Delta: 2.470793 ms
+[INFO] [1794437872.801432745] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437872.803301443] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1786930612376 ns
+T2_monotonic: 1786933040682 ns
+Delta: 2.428306 ms
+[INFO] [1794437875.873104407] [stop_monitor]: Received vehicle T1 timestamp.
+[WARN] [1794437875.875017811] [stop_monitor]: Stop request detected. Current speed: None m/s.
+T1_monotonic: 1790002418139 ns
+T2_monotonic: 1790004702175 ns
+Delta: 2.284036 ms

@@ -1,0 +1,4 @@
+Invoking command in '/home/hydrau/Desktop/infrasense/build/dbw_ford_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hydrau/Desktop/infrasense/build/dbw_ford_msgs -- -j32 -l32
+Invoked command in '/home/hydrau/Desktop/infrasense/build/dbw_ford_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hydrau/Desktop/infrasense/build/dbw_ford_msgs -- -j32 -l32
+Invoking command in '/home/hydrau/Desktop/infrasense/build/dbw_ford_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hydrau/Desktop/infrasense/build/dbw_ford_msgs
+Invoked command in '/home/hydrau/Desktop/infrasense/build/dbw_ford_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hydrau/Desktop/infrasense/build/dbw_ford_msgs

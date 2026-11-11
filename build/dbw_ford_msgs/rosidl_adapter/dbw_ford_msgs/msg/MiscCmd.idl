@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from dbw_ford_msgs/msg/MiscCmd.msg
+// generated code does not contain a copyright notice
+
+#include "dbw_ford_msgs/msg/ParkingBrakeCmd.idl"
+#include "dbw_ford_msgs/msg/TurnSignal.idl"
+#include "std_msgs/msg/Header.idl"
+
+module dbw_ford_msgs {
+  module msg {
+    struct MiscCmd {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Turn signal command enumeration")
+      dbw_ford_msgs::msg::TurnSignal cmd;
+
+      @verbatim (language="comment", text=
+        "Parking brake command enumeration")
+      dbw_ford_msgs::msg::ParkingBrakeCmd pbrk;
+    };
+  };
+};

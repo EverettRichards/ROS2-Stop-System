@@ -1,0 +1,3 @@
+- Measure the time stamp from when the message was sent
+- Investigate the 20ms --> 2ms drop
+- Look into synchronization
